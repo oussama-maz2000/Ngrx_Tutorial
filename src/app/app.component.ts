@@ -1,11 +1,14 @@
 import { Component, OnInit } from '@angular/core';
 import { Store, select } from '@ngrx/store';
-import {
+/* import {
   initAction,
   firstAction,
   incrementCount,
   dicrementCount,
-} from './state/02-actions';
+} from './state/02-actions'; */
+
+import * as Actions from "./state/02-actions";
+import {inc_dic_Actions} from "./state/02-actions"
 import { User } from './model/interface/User';
 import { Observable } from 'rxjs';
 import { getUser, getCount } from './state/03-selectors';
@@ -37,14 +40,14 @@ export class AppComponent implements OnInit {
 
   changeState() {
     this.store.dispatch(
-      firstAction({ username: 'john', age: 22, isAdmin: true })
+      Actions.firstAction({ username: 'john', age: 22, isAdmin: true })
     );
   }
 
   dicrementFunc() {
-    this.store.dispatch(dicrementCount());
+    this.store.dispatch(inc_dic_Actions.dicrementCount());
   }
   incrementFunc() {
-    this.store.dispatch(incrementCount());
+    this.store.dispatch(inc_dic_Actions.incrementCount());
   }
 }

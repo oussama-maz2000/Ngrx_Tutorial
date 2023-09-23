@@ -4,6 +4,7 @@ import {
   firstAction,
   incrementCount,
   initAction,
+  inc_dic_Actions
 } from './02-actions';
 import { User } from '../model/interface/User';
 import { State } from '../model/interface/State';
@@ -45,11 +46,11 @@ export const rootReducer = createReducer<State>(
       isAdmin: props.isAdmin,
     },
   })),
-  on(incrementCount, (state) => ({
+  on(inc_dic_Actions.incrementCount, (state) => ({
     ...state,
     count: state.count + 1,
   })),
-  on(dicrementCount, (state) => ({
+  on(inc_dic_Actions.dicrementCount, (state) => ({
     ...state,
     count: state.count - 1,
   }))
