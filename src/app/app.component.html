@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="mx-4 my-4">
+        <h4>state ngrx</h4>
+        <button class="btn btn-primary" (click)="changeState()">change state</button>
+
+        <div class="d-flex my-5 justify-content-evenly">
+            <button class="btn btn-danger" (click)="dicrementFunc()">dicrement</button>
+            <button class="btn btn-success" (click)="incrementFunc()">increment</button>
+
+
+
+        </div>
+        <h5>{{count | async}}</h5>
+        <h5>{{ (user | async)?.userName }}</h5>
+        <h5>{{(user| async)?.age}}</h5>
+        <h5>{{(user|async)?.isAdmin}}</h5>
+    </div>
+</div>
