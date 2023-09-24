@@ -5,9 +5,10 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { metaReducer, rootReducer } from './state/01-reducers';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
+import { RxjsComponent } from './RxJs/rxjs/rxjs.component';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, RxjsComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
