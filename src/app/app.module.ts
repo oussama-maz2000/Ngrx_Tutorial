@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { metaReducer, rootReducer } from './state/01-reducers';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { RxjsComponent } from './RxJs/rxjs/rxjs.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [AppComponent, RxjsComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule,
     StoreModule.forRoot(
       {
         firstReducer: rootReducer,

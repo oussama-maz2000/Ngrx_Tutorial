@@ -3,4 +3,17 @@
 
   <button class="btn btn-primary mx-3" (click)="start()">start</button>
   <button class="btn btn-danger" (click)="stop()">stop</button>
+
+  <div class="row" *ngFor="let i of users">
+    <div class="col-6" style="background-color: rgb(77, 158, 77)">
+      {{ i.id }}
+    </div>
+    <div class="col-6">{{ i.name }}</div>
+    <div class="col-6">{{ i.username }}</div>
+    <div class="col-6">{{ i.phone }}</div>
+    <div class="col-6">{{ i.email }}</div>
+    <div class="col-6">{{ i.company.name }}</div>
+    <div class="col-6">{{ i.address.city }}</div>
+    <div class="col-6">{{ i.website }}</div>
+  </div>
 </div>
