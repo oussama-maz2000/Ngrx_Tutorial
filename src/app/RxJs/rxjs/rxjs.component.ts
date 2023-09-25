@@ -1,5 +1,12 @@
 import { Component, OnInit } from '@angular/core';
-import { Observable, Subscription, from, interval, of } from 'rxjs';
+import {
+  Observable,
+  Subscription,
+  combineLatest,
+  from,
+  interval,
+  of,
+} from 'rxjs';
 import { filter, map, take } from 'rxjs/operators';
 @Component({
   selector: 'app-rxjs',
@@ -10,6 +17,9 @@ export class RxjsComponent implements OnInit {
   private subscription: Subscription = new Subscription();
   private subscription2: any;
 
+  private obs1 = of(1, 2, 3);
+  private obs2 = of(11, 12, 13);
+  private obs3 = of(21, 22, 23);
   ngOnInit(): void {
     /*  const observe = {
       next: (item: unknown) => console.log('recieved ', item),
@@ -28,7 +38,7 @@ export class RxjsComponent implements OnInit {
 
     stream.subscribe(observe); */
 
-    from([1, 2, 3, 4, 5])
+    /* from([1, 2, 3, 4, 5])
       .pipe(
         map((item: number) => item * 2),
         filter((item) => item > 4)
@@ -37,7 +47,11 @@ export class RxjsComponent implements OnInit {
         (value) => console.log('value ', value),
         (error) => console.error(error),
         () => console.log('complete ')
-      );
+      ); */
+
+    combineLatest([this.obs1, this.obs2, this.obs3]).subscribe((val) =>
+      console.log(val)
+    );
   }
 
   public start(): void {
@@ -56,6 +70,7 @@ export class RxjsComponent implements OnInit {
   }
 
   public stop(): void {
-    this.subscription2.unsubscribe();
+    // this.subscription2.unsubscribe();
+    this.subscription2.complete();
   }
 }
