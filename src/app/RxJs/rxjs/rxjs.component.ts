@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import {
+  BehaviorSubject,
   Observable,
+  Subject,
   Subscription,
   combineLatest,
   forkJoin,
@@ -18,84 +20,64 @@ import { RxjsService } from 'src/app/shared/services/rxjs_service';
   styleUrls: ['./rxjs.component.css'],
 })
 export class RxjsComponent implements OnInit {
-  private subscription: Subscription = new Subscription();
-  private subscription2: any;
-
+  private _userFilter = '';
   private userObs: Observable<User_Model[]> = of([]);
+  public userFilter$: Observable<User_Model[]> = of([]);
   public users: User_Model[] = [];
-
-  private obs1 = of(1, 2, 3);
-  private obs2 = of(11, 12, 13);
-  private obs3 = of(21, 22, 23);
-
+  public filterSubject: Subject<string> = new BehaviorSubject<string>('');
   constructor(private rxjsService: RxjsService) {}
+
   ngOnInit(): void {
-    /*  const observe = {
-      next: (item: unknown) => console.log('recieved ', item),
-      error: (err: unknown) => console.log('oups we received an error'),
-      complete: () => console.log('complete from observe'),
-    };
-
-    const stream = new Observable((obs) => {
-      obs.next('item 1');
-      obs.next('item 2');
-      obs.next('item 3');
-      obs.next('item 4');
-      obs.complete();
-      obs.next('item 5');
-    });
-
-    stream.subscribe(observe); */
-
-    /* from([1, 2, 3, 4, 5])
-      .pipe(
-        map((item: number) => item * 2),
-        filter((item) => item > 4)
-      )
-      .subscribe(
-        (value) => console.log('value ', value),
-        (error) => console.error(error),
-        () => console.log('complete ')
-      ); */
-    /*  console.log('combine latest log');
-
-    combineLatest([this.obs1, this.obs2, this.obs3]).subscribe((val) =>
-      console.log(val)
-    );
-
-    console.log('fork join log');
-    forkJoin([this.obs1, this.obs2, this.obs3]).subscribe((val) =>
-      console.log(val)
-    );
-
-    console.log('with latest from log');
-    this.obs1
-      .pipe(withLatestFrom(this.obs2, this.obs3))
-      .subscribe((val) => console.log(val)); */
-
     this.userObs = this.rxjsService.getUser();
     this.userObs.subscribe((user) => {
       this.users = user;
     });
+    this.userFilter = '';
+    this.userFilter$ = this.createFilterUsers(this.filterSubject, this.userObs);
   }
 
-  public start(): void {
-    /*  this.subscription.add(
-      interval(1000).subscribe(
-        (value) => console.log('value ', value),
-        (error) => console.error(error),
-        () => console.log('complete ')
-      )
-    ); */
-    this.subscription2 = interval(1000).subscribe(
-      (value) => console.log('value ', value),
-      (error) => console.error(error),
-      () => console.log('complete ')
+  public set userFilter(filter: string) {
+    this._userFilter = filter;
+
+    /*  if (this.userFilter) {
+      this.userFilter$ = this.userObs.pipe(
+        map((users: User_Model[]) => this.filterUserFun(filter, users))
+      );
+    } else {
+      this.userFilter$ = this.userObs;
+    } */
+  }
+
+  public get userFilter(): string {
+    return this._userFilter;
+  }
+
+  private filterUserFun(critaria: string, users: User_Model[]): User_Model[] {
+    critaria = critaria.toUpperCase();
+    const users_filtred = users.filter(
+      (user: User_Model) => user.name.toUpperCase().indexOf(critaria) !== -1
     );
+    return users_filtred;
   }
 
-  public stop(): void {
-    // this.subscription2.unsubscribe();
-    this.subscription2.complete();
+  public changeFilterValue(value: string) {
+    this.filterSubject.next(value);
+  }
+
+  public createFilterUsers(
+    critaria: Observable<string>,
+    users: Observable<User_Model[]>
+  ): Observable<User_Model[]> {
+    return combineLatest(
+      users,
+      critaria,
+      (users: User_Model[], filter: string) => {
+        if (filter === '') this.userObs;
+        return users.filter(
+          (user: User_Model) =>
+            user.name.toUpperCase().indexOf(filter.toUpperCase()) !== -1
+        );
+      }
+    );
   }
 }

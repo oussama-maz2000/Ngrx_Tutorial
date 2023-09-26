@@ -1,19 +1,24 @@
 <div class="container">
   <h4>hello from rxjs component</h4>
 
-  <button class="btn btn-primary mx-3" (click)="start()">start</button>
-  <button class="btn btn-danger" (click)="stop()">stop</button>
+  <!-- <button class="btn btn-primary mx-3" (click)="start()">start</button>
+  <button class="btn btn-danger" (click)="stop()">stop</button> -->
 
-  <div class="row" *ngFor="let i of users">
-    <div class="col-6" style="background-color: rgb(77, 158, 77)">
-      {{ i.id }}
+  <input type="text" class="form-control my-4" placeholder="filter user" [(ngModel)]="userFilter"
+    (ngModelChange)="changeFilterValue($event)">
+
+
+
+  <div class="row" *ngFor="let i of userFilter$ |async ">
+    <div style="background-color: rgb(138, 219, 138)">
+      user Id : {{ i.id }}
     </div>
-    <div class="col-6">{{ i.name }}</div>
-    <div class="col-6">{{ i.username }}</div>
-    <div class="col-6">{{ i.phone }}</div>
-    <div class="col-6">{{ i.email }}</div>
-    <div class="col-6">{{ i.company.name }}</div>
-    <div class="col-6">{{ i.address.city }}</div>
-    <div class="col-6">{{ i.website }}</div>
+    <div>user Name : {{ i.name }}</div>
+    <div>user UserName : {{ i.username }}</div>
+    <div>user Phone : {{ i.phone }}</div>
+    <div>user Email :{{ i.email }}</div>
+    <div>user Company : {{ i.company.name }}</div>
+    <div>user City : {{ i.address.city }}</div>
+    <div>user WebSit : {{ i.website }}</div>
   </div>
 </div>

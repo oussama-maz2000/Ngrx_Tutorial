@@ -7,6 +7,7 @@ import { metaReducer, rootReducer } from './state/01-reducers';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { RxjsComponent } from './RxJs/rxjs/rxjs.component';
 import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [AppComponent, RxjsComponent],
@@ -14,6 +15,7 @@ import { HttpClientModule } from '@angular/common/http';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    FormsModule,
     StoreModule.forRoot(
       {
         firstReducer: rootReducer,
