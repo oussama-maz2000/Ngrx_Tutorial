@@ -13,7 +13,7 @@ import {
 import { filter, map, take, withLatestFrom } from 'rxjs/operators';
 import { User } from 'src/app/model/interface/User';
 import { User_Model } from 'src/app/model/interface/User_Model';
-import { RxjsService } from 'src/app/shared/services/rxjs_service';
+import { RxjsService } from 'src/app/shared/services/rxjs_S.service';
 @Component({
   selector: 'app-rxjs',
   templateUrl: './rxjs.component.html',
