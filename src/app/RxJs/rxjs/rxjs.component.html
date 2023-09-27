@@ -4,15 +4,18 @@
   <!-- <button class="btn btn-primary mx-3" (click)="start()">start</button>
   <button class="btn btn-danger" (click)="stop()">stop</button> -->
 
-  <input type="text" class="form-control my-4" placeholder="filter user" [(ngModel)]="userFilter"
-    (ngModelChange)="changeFilterValue($event)">
+  <input
+    type="text"
+    class="form-control my-4"
+    placeholder="filter user"
+    [(ngModel)]="userFilter"
+    (ngModelChange)="changeFilterValue($event)"
+  />
 
+  <a routerLink="home">home</a>
 
-
-  <div class="row" *ngFor="let i of userFilter$ |async ">
-    <div style="background-color: rgb(138, 219, 138)">
-      user Id : {{ i.id }}
-    </div>
+  <div class="row" *ngFor="let i of userFilter$ | async">
+    <div style="background-color: rgb(138, 219, 138)">user Id : {{ i.id }}</div>
     <div>user Name : {{ i.name }}</div>
     <div>user UserName : {{ i.username }}</div>
     <div>user Phone : {{ i.phone }}</div>
