@@ -1,0 +1,57 @@
+<div class="container">
+
+    <div class="row my-5">
+
+        <form [formGroup]="form">
+            <div class="col-6">
+                <div class="mb-3">
+                    <label class="form-label">name</label>
+                    <input type="text" class="form-control" formControlName="name">
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="mb-3">
+                    <label class="form-label">username</label>
+                    <input type="text" class="form-control" formControlName="username">
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="mb-3">
+                    <label class="form-label">phone</label>
+                    <input type="text" class="form-control" formControlName="phone">
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="mb-3">
+                    <label class="form-label">email</label>
+                    <input type="email" class="form-control" formControlName="email">
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="mb-3">
+                    <label class="form-label">website</label>
+                    <input type="text" class="form-control" formControlName="website">
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="mb-3">
+                    <label class="form-label">address</label>
+                    <input type="text" class="form-control" formControlName="address">
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="mb-3">
+                    <label class="form-label">company</label>
+                    <input type="text" class="form-control" formControlName="company">
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="mb-3">
+
+                    <input type="button" class="form-control bg-primary " (click)="ngSubmit()" value="submit">
+                </div>
+            </div>
+        </form>
+    </div>
+
+</div>

@@ -4,13 +4,8 @@
   <!-- <button class="btn btn-primary mx-3" (click)="start()">start</button>
   <button class="btn btn-danger" (click)="stop()">stop</button> -->
 
-  <input
-    type="text"
-    class="form-control my-4"
-    placeholder="filter user"
-    [(ngModel)]="userFilter"
-    (ngModelChange)="changeFilterValue($event)"
-  />
+  <input type="text" class="form-control my-4" placeholder="filter user" [(ngModel)]="userFilter"
+    (ngModelChange)="changeFilterValue($event)" />
 
   <a routerLink="home">home</a>
 
@@ -22,6 +17,8 @@
     <div>user Email :{{ i.email }}</div>
     <div>user Company : {{ i.company.name }}</div>
     <div>user City : {{ i.address.city }}</div>
-    <div>user WebSit : {{ i.website }}</div>
+    <div><input type="text" class="form-control" value="user WebSit : {{ i.website }}"></div>
   </div>
+  <div><button class="btn btn-primary my-5" (click)="createNewUser()">create user</button></div>
+
 </div>

@@ -2,7 +2,9 @@ public class PubModel {
     public int timeDownload { get; set; };
     public int serieUpdate { get; set; };
     public int accountUpdate { get; set; };
-    public Pubs pubs { get; set; };
+    public Pubs[] pubs { get; set; };
+    public string[] local_images;
+    public string[] remote_images;
 }
 
 public class Pubs{
@@ -37,7 +39,7 @@ public class EntrepriseInfo {
 public class ModelPub {
    public string typeModel { get; set; };
    public string emplacement { get; set; };
-   public ElementPub [] elementPub { get; set; };
+   public ElementPub [] elementsPub { get; set; };
 }
 
 public class ElementPub {

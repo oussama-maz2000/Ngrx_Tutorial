@@ -11,9 +11,11 @@ import {
   of,
 } from 'rxjs';
 import { filter, map, take, withLatestFrom } from 'rxjs/operators';
+import { Address } from 'src/app/model/interface/Address';
+import { Company } from 'src/app/model/interface/Company';
 import { User } from 'src/app/model/interface/User';
 import { User_Model } from 'src/app/model/interface/User_Model';
-import { RxjsService } from 'src/app/shared/services/rxjs_S.service';
+import { RxjsService } from 'src/app/shared/services/rxjs_service';
 @Component({
   selector: 'app-rxjs',
   templateUrl: './rxjs.component.html',
@@ -21,14 +23,14 @@ import { RxjsService } from 'src/app/shared/services/rxjs_S.service';
 })
 export class RxjsComponent implements OnInit {
   private _userFilter = '';
-  private userObs: Observable<User_Model[]> = of([]);
+  private userObs: Observable<any> = of([]);
   public userFilter$: Observable<User_Model[]> = of([]);
   public users: User_Model[] = [];
   public filterSubject: Subject<string> = new BehaviorSubject<string>('');
   constructor(private rxjsService: RxjsService) {}
 
   ngOnInit(): void {
-    this.userObs = this.rxjsService.getUser();
+    this.userObs = this.rxjsService.userWithAdd();
     this.userObs.subscribe((user) => {
       this.users = user;
     });
@@ -79,5 +81,32 @@ export class RxjsComponent implements OnInit {
         );
       }
     );
+  }
+
+  public createNewUser() {
+    const user: User_Model = {
+      id: 1,
+      name: 'John Doe',
+      username: 'johndoe',
+      phone: '555-555-5555',
+      email: 'john@example.com',
+      website: 'johndoe.com',
+      address: {
+        street: '123 Main St',
+        suite: 'Apt 4B',
+        city: 'New York',
+        zipcode: '10001',
+        geo: {
+          lat: '2.33333',
+          lng: '2.333333',
+        },
+      },
+      company: {
+        name: 'Company Inc',
+        catchPhrase: 'Your success is our business',
+        bs: 'Best services',
+      },
+    };
+    this.rxjsService.addUser(user);
   }
 }
