@@ -30,7 +30,7 @@ export class RxjsComponent implements OnInit {
   constructor(private rxjsService: RxjsService) {}
 
   ngOnInit(): void {
-    this.userObs = this.rxjsService.userWithAdd();
+    this.userObs = this.rxjsService.userWithAdd;
     this.userObs.subscribe((user) => {
       this.users = user;
     });
@@ -81,32 +81,5 @@ export class RxjsComponent implements OnInit {
         );
       }
     );
-  }
-
-  public createNewUser() {
-    const user: User_Model = {
-      id: 1,
-      name: 'John Doe',
-      username: 'johndoe',
-      phone: '555-555-5555',
-      email: 'john@example.com',
-      website: 'johndoe.com',
-      address: {
-        street: '123 Main St',
-        suite: 'Apt 4B',
-        city: 'New York',
-        zipcode: '10001',
-        geo: {
-          lat: '2.33333',
-          lng: '2.333333',
-        },
-      },
-      company: {
-        name: 'Company Inc',
-        catchPhrase: 'Your success is our business',
-        bs: 'Best services',
-      },
-    };
-    this.rxjsService.addUser(user);
   }
 }
