@@ -1,0 +1,11 @@
+<div class="container">
+    <button class="btn btn-primary mx-3" (click)="incrementEvent()">Increment</button>
+    <button class="btn btn-danger mx-3" (click)="dicrementEvent()">decrement</button>
+    <button class="btn btn-warning mx-3" (click)="resetEvent()">reset</button>
+
+
+    <div class="input-group mb-3 my-2">
+        <input type="text" class="form-control" [(ngModel)]="customCounter">
+        <button class="btn btn-outline-secondary" type="button" (click)="addInc()">customInc</button>
+    </div>
+</div>

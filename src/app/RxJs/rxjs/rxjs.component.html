@@ -1,20 +1,13 @@
 <div class="container">
-  <h4>hello from rxjs component</h4>
+
 
   <!-- <button class="btn btn-primary mx-3" (click)="start()">start</button>
   <button class="btn btn-danger" (click)="stop()">stop</button> -->
 
-  <input
-    type="text"
-    class="form-control my-4"
-    placeholder="filter user"
-    [(ngModel)]="userFilter"
-    (ngModelChange)="changeFilterValue($event)"
-  />
+  <input type="text" class="form-control my-4" placeholder="filter user" [(ngModel)]="userFilter"
+    (ngModelChange)="changeFilterValue($event)" />
 
-  <a routerLink="home">home</a>
-  <br />
-  <a routerLink="user-edit">user-edit</a>
+
 
   <div class="row" *ngFor="let i of userFilter$ | async">
     <div style="background-color: rgb(138, 219, 138)">user Id : {{ i.id }}</div>
@@ -25,11 +18,7 @@
     <div>user Company : {{ i.company.name }}</div>
     <div>user City : {{ i.address.city }}</div>
     <div>
-      <input
-        type="text"
-        class="form-control"
-        value="user WebSit : {{ i.website }}"
-      />
+      <input type="text" class="form-control" value="user WebSit : {{ i.website }}" />
     </div>
   </div>
   <!-- <div>

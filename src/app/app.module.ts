@@ -9,10 +9,27 @@ import { RxjsComponent } from './RxJs/rxjs/rxjs.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { UserEditComponent } from './RxJs/user-edit/user-edit.component';
-/* import { MDBBootstrapModule } from 'angular-bootstrap-md'; */
+import { CounterOutputComponent } from './counter/counter-output/counter-output.component';
+import { CounterButtonsComponent } from './counter/counter-buttons/counter-buttons.component';
+import { counterReducer } from '../app/counter/shared/state/counter.reducer';
+import { HomeComponent } from './counter/home/home.component';
+import { HeaderComponent } from './counter/shared/components/header/header.component';
+import { CounterComponent } from './counter/counter/counter.component';
+import { PostComponent } from './post/post/post.component';
+import { appReducer } from './app_State/app.state';
 
 @NgModule({
-  declarations: [AppComponent, RxjsComponent, UserEditComponent],
+  declarations: [
+    AppComponent,
+    RxjsComponent,
+    UserEditComponent,
+    CounterOutputComponent,
+    CounterButtonsComponent,
+    HomeComponent,
+    HeaderComponent,
+    CounterComponent,
+    PostComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -20,19 +37,7 @@ import { UserEditComponent } from './RxJs/user-edit/user-edit.component';
     FormsModule,
     ReactiveFormsModule,
 
-    StoreModule.forRoot(
-      {
-        firstReducer: rootReducer,
-      },
-      {
-        metaReducers: metaReducer,
-        runtimeChecks: {
-          strictActionTypeUniqueness: true,
-          strictActionImmutability: true,
-          strictStateImmutability: true,
-        },
-      }
-    ),
+    StoreModule.forRoot(appReducer),
     StoreDevtoolsModule.instrument({ maxAge: 25, logOnly: !isDevMode() }),
   ],
   providers: [],
