@@ -1,12 +1,20 @@
-<div class="container">
-    <div class="row">
-        <div class="col-12">
-            <div *ngFor="let i of posts|async">
-                <div>{{i.id}}</div>
-                <div>{{i.title}}</div>
-                <div>{{i.description}}</div>
-                <div><img src={{i.img}} alt="..."></div>
-            </div>
+<div class="row">
+    <div>
+
+    </div>
+    <div class="col-7 ">
+        <a class="btn btn-success" [routerLink]="['/post/add']">add post</a>
+        <div *ngFor="let i of posts|async" class="my-3">
+            <div>{{i.id}}</div>
+            <h2>{{i.title}}</h2>
+            <label>{{i.description}}</label>
+            <div><img src={{i.img}} alt="..."></div>
+            <hr>
         </div>
+
+
+    </div>
+    <div class="col-5">
+        <router-outlet></router-outlet>
     </div>
 </div>
