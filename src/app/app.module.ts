@@ -17,6 +17,7 @@ import { HeaderComponent } from './counter/shared/components/header/header.compo
 import { CounterComponent } from './counter/counter/counter.component';
 import { PostComponent } from './post/post/post.component';
 import { appReducer } from './app_State/app.state';
+import { PostAddComponent } from './post/post-add/post-add.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { appReducer } from './app_State/app.state';
     HeaderComponent,
     CounterComponent,
     PostComponent,
+    PostAddComponent,
   ],
   imports: [
     BrowserModule,

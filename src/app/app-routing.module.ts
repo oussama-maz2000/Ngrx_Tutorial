@@ -6,13 +6,18 @@ import { UserEditComponent } from './RxJs/user-edit/user-edit.component';
 import { HomeComponent } from './counter/home/home.component';
 import { CounterComponent } from './counter/counter/counter.component';
 import { PostComponent } from './post/post/post.component';
+import { PostAddComponent } from './post/post-add/post-add.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'counter', component: CounterComponent },
   { path: 'rxjs', component: RxjsComponent },
   { path: 'user-edit', component: UserEditComponent },
-  { path: 'post', component: PostComponent },
+  {
+    path: 'post',
+    component: PostComponent,
+    children: [{ path: 'add', component: PostAddComponent }],
+  },
 ];
 
 @NgModule({
