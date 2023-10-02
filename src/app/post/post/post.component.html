@@ -9,6 +9,8 @@
             <h2>{{i.title}}</h2>
             <label>{{i.description}}</label>
             <div><img src={{i.img}} alt="..."></div>
+            <button class="btn btn-warning my-2" [routerLink]="['edit',i.id]"><i
+                    class="bi bi-arrow-clockwise">edit</i></button>
             <hr>
         </div>
 

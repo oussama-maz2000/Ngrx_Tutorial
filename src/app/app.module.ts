@@ -18,6 +18,7 @@ import { CounterComponent } from './counter/counter/counter.component';
 import { PostComponent } from './post/post/post.component';
 import { appReducer } from './app_State/app.state';
 import { PostAddComponent } from './post/post-add/post-add.component';
+import { PostEditComponent } from './post/post-edit/post-edit.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { PostAddComponent } from './post/post-add/post-add.component';
     CounterComponent,
     PostComponent,
     PostAddComponent,
+    PostEditComponent,
   ],
   imports: [
     BrowserModule,

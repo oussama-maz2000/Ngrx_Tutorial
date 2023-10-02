@@ -3,7 +3,7 @@ export interface PostState {
 }
 
 export interface Post {
-  id: number;
+  id?: number;
   title: string;
   description: string;
   img?: string;
