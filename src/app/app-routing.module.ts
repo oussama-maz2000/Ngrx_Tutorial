@@ -11,16 +11,22 @@ import { PostEditComponent } from './post/post-edit/post-edit.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
-  { path: 'counter', component: CounterComponent },
+  {
+    path: 'counter',
+    loadChildren: () =>
+      import('./counter/counter.module').then((module) => module.CounterModule),
+  },
   { path: 'rxjs', component: RxjsComponent },
   { path: 'user-edit', component: UserEditComponent },
   {
     path: 'post',
-    component: PostComponent,
-    children: [
-      { path: 'add', component: PostAddComponent },
-      { path: 'edit/:id', component: PostEditComponent },
-    ],
+    loadChildren: () =>
+      import('./post/post.module').then((module) => module.PostModule),
+  },
+  {
+    path: 'auth',
+    loadChildren: () =>
+      import('./auth/auth.module').then((module) => module.AuthModule),
   },
 ];
 

@@ -1,7 +1,7 @@
 import { createReducer, on } from '@ngrx/store';
 import { PostState } from './post.model';
 import { postInitialState } from './post.state';
-import { addPost, updatePost } from './post.action';
+import { addPost, deletePost, updatePost } from './post.action';
 
 const _postReducer = createReducer(
   postInitialState,
@@ -20,6 +20,16 @@ const _postReducer = createReducer(
     return {
       ...state,
       posts: postUpdate,
+    };
+  }),
+
+  on(deletePost, (state, { id }) => {
+    const postReturned = state.posts.filter((post) => {
+      return post.id !== id;
+    });
+    return {
+      ...state,
+      posts: postReturned,
     };
   })
 );
