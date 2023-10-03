@@ -8,13 +8,9 @@ import { RxjsComponent } from './RxJs/rxjs/rxjs.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { UserEditComponent } from './RxJs/user-edit/user-edit.component';
-import { CounterOutputComponent } from './counter/counter-output/counter-output.component';
-import { CounterButtonsComponent } from './counter/counter-buttons/counter-buttons.component';
+
 import { HomeComponent } from './counter/home/home.component';
 import { HeaderComponent } from './counter/shared/components/header/header.component';
-import { CounterComponent } from './counter/counter/counter.component';
-import { appReducer } from './app_State/app.state';
-import { LoginComponent } from './auth/login/login.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +20,6 @@ import { LoginComponent } from './auth/login/login.component';
 
     HomeComponent,
     HeaderComponent,
-    LoginComponent,
   ],
   imports: [
     BrowserModule,

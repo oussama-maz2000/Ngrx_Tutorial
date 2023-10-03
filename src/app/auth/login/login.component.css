@@ -1,0 +1,8 @@
+.log {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.col-md-6 {
+  width: 100%;
+}
