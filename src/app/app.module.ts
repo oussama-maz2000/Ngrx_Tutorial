@@ -12,6 +12,7 @@ import { UserEditComponent } from './RxJs/user-edit/user-edit.component';
 import { HomeComponent } from './counter/home/home.component';
 import { HeaderComponent } from './counter/shared/components/header/header.component';
 import { EffectsModule } from '@ngrx/effects';
+import { LoadingSpinnerComponent } from './shared/loading-spinner/loading-spinner.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { EffectsModule } from '@ngrx/effects';
 
     HomeComponent,
     HeaderComponent,
+    LoadingSpinnerComponent,
   ],
   imports: [
     BrowserModule,
