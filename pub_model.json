@@ -173,6 +173,63 @@
     },
 
     {
+      "typeModel": "img_slides",
+      "emplacement": "x",
+      "elementPub": [
+        {
+          "publication_info": {
+            "imgs_path_local": [
+              "base_model_image_1_1.jpg",
+              "base_model_image_1_2.jpg",
+              "base_model_image_1_3.jpg"
+            ],
+            "imgs_path_remote": [
+              "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/961840701/2.jpg?t=2023-09-19T16%3A58%3A39.392Z",
+              "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/961840701/2.jpg?t=2023-09-19T16%3A58%3A39.392Z",
+              "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/961840701/2.jpg?t=2023-09-19T16%3A58%3A39.392Z"
+            ],
+            "title": "first publication",
+            "sub_title": "first sub title of publication",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+            "link_voir_plus": "link vers la pulicitie ou le site web de l'entreprise s'il exist bien sur",
+            "note": "Life is a journey of moments, some filled with joy, others with challenges. Embrace them all, for they shape the beautiful mosaic of your existence.",
+            "badge": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+            "background_img_remote": "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/961840701/2.jpg?t=2023-09-19T16%3A58%3A39.392Z",
+            "background_img_local": "base_model_image_1_3.jpg"
+          },
+          "entreprise_info": {
+            "entp_title": "tirassam",
+            "entp_sub_title": "sous_tirassam",
+            "entp_description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the   standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+            "entp_image_remote": [
+              "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/961840701/2.jpg?t=2023-09-19T16%3A58%3A39.392Z"
+            ],
+            "entp_image_local": ["base_model_image_1_1.jpg"],
+
+            "entp_reseaux_sociaux": {
+              "facebook": "facebook.com",
+              "website": "website.com",
+              "instegram": "instegram.com"
+            },
+            "entp_phone_number": {
+              "fix": "044998844",
+              "fax": "044998844",
+              "num_1": "0766554455",
+              "num_2": "0543672218"
+            },
+            "entp_maps": {
+              "entp_lng": "2.887444",
+              "entp_lat": "8.999212"
+            },
+            "entp_address": "Lotissement les Castors, 16005 Bir Mourad Rais",
+            "entp_logo_remote": "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/961840701/2.jpg?t=2023-09-19T16%3A58%3A39.392Z",
+            "entp_logo_local": "base_model_image_1_1.jpg"
+          }
+        }
+      ]
+    },
+
+    {
       "typeModel": "img_hr",
       "emplacement": "x",
       "elementPub": [
