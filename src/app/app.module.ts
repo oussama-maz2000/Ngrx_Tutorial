@@ -11,6 +11,7 @@ import { UserEditComponent } from './RxJs/user-edit/user-edit.component';
 
 import { HomeComponent } from './counter/home/home.component';
 import { HeaderComponent } from './counter/shared/components/header/header.component';
+import { EffectsModule } from '@ngrx/effects';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,7 @@ import { HeaderComponent } from './counter/shared/components/header/header.compo
     HttpClientModule,
     FormsModule,
     ReactiveFormsModule,
-
+    EffectsModule.forRoot([]),
     StoreModule.forRoot(),
     StoreDevtoolsModule.instrument({ maxAge: 25, logOnly: !isDevMode() }),
   ],
