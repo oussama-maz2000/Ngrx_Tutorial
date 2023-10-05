@@ -34,4 +34,21 @@ export class AuthService {
     );
     return user;
   }
+
+  formatErrorMessage(error: string) {
+    switch (error) {
+      case 'INVALID_EMAIL':
+        return 'Invalid Email';
+      case 'INVALID_LOGIN_CREDENTIALS':
+        return 'Invalid Login Credentials';
+      case 'MISSING_PASSWORD':
+        return 'Missing Password';
+      case 'EMAIL_NOT_FOUND':
+        return 'Email Not Found ';
+      case 'INVALID_PASSWORD':
+        return 'Invalid Password';
+      default:
+        return ' unknow error occured';
+    }
+  }
 }

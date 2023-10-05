@@ -18,10 +18,13 @@
 </div> -->
 <app-header></app-header>
 
-<app-loading-spinner></app-loading-spinner>
-<div class="row">
-  <div class="col-md-12 text-center">
-    <router-outlet></router-outlet>
+<app-loading-spinner *ngIf=" showLoading |async"></app-loading-spinner>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="alert alert-danger" *ngIf="errMsg | async as error">{{error}}</div>
+      <router-outlet></router-outlet>
+    </div>
   </div>
 </div>
 <!-- <app-counter-output></app-counter-output>

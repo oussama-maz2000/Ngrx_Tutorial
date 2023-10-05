@@ -13,6 +13,7 @@ import { HomeComponent } from './counter/home/home.component';
 import { HeaderComponent } from './counter/shared/components/header/header.component';
 import { EffectsModule } from '@ngrx/effects';
 import { LoadingSpinnerComponent } from './shared/loading-spinner/loading-spinner.component';
+import { appReducer } from './app_State/app.state';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,7 @@ import { LoadingSpinnerComponent } from './shared/loading-spinner/loading-spinne
     FormsModule,
     ReactiveFormsModule,
     EffectsModule.forRoot([]),
-    StoreModule.forRoot(),
+    StoreModule.forRoot(appReducer),
     StoreDevtoolsModule.instrument({ maxAge: 25, logOnly: !isDevMode() }),
   ],
   providers: [],

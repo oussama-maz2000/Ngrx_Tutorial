@@ -3,6 +3,7 @@ import { FormControl, FormGroup, Validators } from '@angular/forms';
 import { Store } from '@ngrx/store';
 import { AppState } from 'src/app/app_State/app.state';
 import { loginStart_Action } from '../state/auth.actions';
+import { loadingAction } from 'src/app/shared/store_shared/shared.action';
 
 @Component({
   selector: 'app-login',
@@ -25,5 +26,6 @@ export class LoginComponent implements OnInit {
     const email = this.loginForm.get('email').value;
     const password = this.loginForm.get('password').value;
     this.store.dispatch(loginStart_Action({ email, password }));
+    this.store.dispatch(loadingAction({ status: true }));
   }
 }
