@@ -1,8 +1,12 @@
 export class User {
   constructor(
-    private email: string,
-    private token: string,
-    private localId: string,
-    private expirationDate: Date
+    private _email: string,
+    private _token: string,
+    private _localId: string,
+    private _expirationDate: Date
   ) {}
+
+  public get expirationDate() {
+    return this._expirationDate;
+  }
 }

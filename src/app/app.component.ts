@@ -14,6 +14,7 @@ import { Observable } from 'rxjs';
 import { getUser, getCount } from './state/03-selectors';
 import { State } from './model/interface/State';
 import { getErrMsg, getLoading } from './shared/store_shared/shared.select';
+import { autoLogin_Action } from './auth/state/auth.actions';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -27,20 +28,9 @@ export class AppComponent implements OnInit {
   constructor(private store: Store) {}
 
   ngOnInit(): void {
-    this.user = this.store.pipe(select(getUser));
-
-    this.count = this.store.pipe(
-      select((state: any) => state.firstReducer.count)
-    );
-    /*  this.count.subscribe((data) => {
-      console.log(data);
-    }); */
-    this.user.subscribe((data) => {
-      console.log(data);
-    });
-
     this.showLoading = this.store.select(getLoading);
     this.errMsg = this.store.select(getErrMsg);
+    this.store.dispatch(autoLogin_Action());
   }
 
   changeState() {

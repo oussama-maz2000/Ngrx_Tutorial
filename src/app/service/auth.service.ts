@@ -4,12 +4,15 @@ import { environement } from 'src/env/env';
 import { AuthResponse } from '../model/interface/Auth_Response.model';
 import { Observable } from 'rxjs';
 import { User } from '../model/classes/User.model';
+import { Store } from '@ngrx/store';
+import { logOut_Action } from '../auth/state/auth.actions';
 
 @Injectable({
   providedIn: 'root',
 })
 export class AuthService {
-  constructor(private http: HttpClient) {}
+  timeOutInterval: any;
+  constructor(private http: HttpClient, private store: Store) {}
 
   loginUser(email: string, password: string): Observable<AuthResponse> {
     return this.http.post<AuthResponse>(
@@ -66,6 +69,45 @@ export class AuthService {
         return 'Too Many Attempts Try Later';
       default:
         return ' unknow error occured';
+    }
+  }
+
+  setUserInLocalStorage(user: User) {
+    localStorage.setItem('userData', JSON.stringify(user));
+    this.runTimeOutInterval(user);
+  }
+
+  runTimeOutInterval(user: User) {
+    let currentTime = new Date().getTime();
+    let expirationDate = user.expirationDate.getTime();
+    let timeInterval = expirationDate - currentTime;
+    this.timeOutInterval = setTimeout(() => {
+      this.store.dispatch(logOut_Action());
+    }, timeInterval);
+  }
+
+  getUserFromLocalStorage(): User {
+    const userDataString = localStorage.getItem('userData');
+    if (userDataString) {
+      let userData = JSON.parse(userDataString);
+      let expirationDate = new Date(userData._expirationDate);
+      let user: User = new User(
+        userData._email,
+        userData._token,
+        userData._localId,
+        expirationDate
+      );
+      this.runTimeOutInterval(user);
+      return user;
+    }
+    return null;
+  }
+
+  logOutService() {
+    localStorage.removeItem('userData');
+    if (this.timeOutInterval) {
+      clearTimeout(this.timeOutInterval);
+      this.timeOutInterval = null;
     }
   }
 }

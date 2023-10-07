@@ -14,6 +14,7 @@ import { HeaderComponent } from './counter/shared/components/header/header.compo
 import { EffectsModule } from '@ngrx/effects';
 import { LoadingSpinnerComponent } from './shared/loading-spinner/loading-spinner.component';
 import { appReducer } from './app_State/app.state';
+import { AuthEffect } from './auth/state/auth.effects';
 
 @NgModule({
   declarations: [
@@ -31,9 +32,9 @@ import { appReducer } from './app_State/app.state';
     HttpClientModule,
     FormsModule,
     ReactiveFormsModule,
-    EffectsModule.forRoot([]),
+    EffectsModule.forRoot([AuthEffect]),
     StoreModule.forRoot(appReducer),
-    StoreDevtoolsModule.instrument({ maxAge: 25, logOnly: !isDevMode() }),
+    StoreDevtoolsModule.instrument({ logOnly: !isDevMode() }),
   ],
   providers: [],
   bootstrap: [AppComponent],
