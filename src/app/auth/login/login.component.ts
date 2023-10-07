@@ -4,6 +4,8 @@ import { Store } from '@ngrx/store';
 import { AppState } from 'src/app/app_State/app.state';
 import { loginStart_Action } from '../state/auth.actions';
 import { loadingAction } from 'src/app/shared/store_shared/shared.action';
+import { Observable } from 'rxjs';
+import { isAuthenticated } from '../state/auth.selectos';
 
 @Component({
   selector: 'app-login',

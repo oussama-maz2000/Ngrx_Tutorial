@@ -7,21 +7,25 @@ import { EffectsModule } from '@ngrx/effects';
 import { AuthEffect } from './state/auth.effects';
 import { StoreModule } from '@ngrx/store';
 import { authReducer } from './state/auth.reducers';
+import { SignComponent } from './sign/sign.component';
 
 const routes: Routes = [
   {
     path: '',
-    children: [{ path: '', component: LoginComponent }],
+    children: [
+      { path: '', component: LoginComponent },
+      { path: 'sign', component: SignComponent },
+    ],
   },
 ];
 
 @NgModule({
-  declarations: [LoginComponent],
+  declarations: [LoginComponent, SignComponent],
   imports: [
     CommonModule,
     ReactiveFormsModule,
     EffectsModule.forFeature(AuthEffect),
-    StoreModule.forFeature('auth', authReducer),
+
     RouterModule.forChild(routes),
   ],
 })
