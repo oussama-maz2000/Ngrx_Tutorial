@@ -3,9 +3,10 @@ import { ActivatedRoute, Route, Router } from '@angular/router';
 import { Store } from '@ngrx/store';
 import { AppState } from 'src/app/app_State/app.state';
 import { getPostById } from '../shared/post.select';
-import { Post } from '../shared/post.model';
+
 import { FormControl, FormGroup, Validators } from '@angular/forms';
 import { updatePost } from '../shared/post.action';
+import { Post } from 'src/app/model/classes/Post.model';
 
 @Component({
   selector: 'app-post-edit',
@@ -34,7 +35,9 @@ export class PostEditComponent implements OnInit {
 
   createFormPostUpdate() {
     this.postForm = new FormGroup({
+      userId: new FormControl(this.post.title, [Validators.required]),
       title: new FormControl(this.post.title, [Validators.required]),
+      body: new FormControl(this.post.title, [Validators.required]),
       description: new FormControl(this.post.description, [
         Validators.required,
       ]),
@@ -44,6 +47,8 @@ export class PostEditComponent implements OnInit {
 
   submitFormPost() {
     let post: Post = {
+      userId: this.postForm.value.userId,
+      body: this.postForm.value.body,
       id: this.post.id,
       title: this.postForm.value.title,
       description: this.postForm.value.description,

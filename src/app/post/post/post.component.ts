@@ -1,10 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
-import { Post } from '../shared/post.model';
+
 import { Store } from '@ngrx/store';
 import { AppState } from 'src/app/app_State/app.state';
 import { getPosts } from '../shared/post.select';
-import { deletePost } from '../shared/post.action';
+import { deletePost, loadPosts_AC } from '../shared/post.action';
+import { Post } from 'src/app/model/classes/Post.model';
 
 @Component({
   selector: 'app-post',
@@ -16,8 +17,9 @@ export class PostComponent implements OnInit {
 
   constructor(private store: Store<AppState>) {}
   ngOnInit(): void {
-    this.posts = this.store.select(getPosts);
-    console.log(this.posts);
+    /* this.posts = this.store.select(getPosts);
+    console.log(this.posts); */
+    this.store.dispatch(loadPosts_AC());
   }
 
   onDeletePost(id: number) {

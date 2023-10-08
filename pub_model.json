@@ -9,7 +9,7 @@
       "elementPub": [
         {
           "publication_info": {
-            "imgs_path_local": ["img_basic_pub_5_0.jpg"],
+            "imgs_path_local": ["img_basic_pub_5_0_0.jpg"],
             "imgs_path_remote": [
               "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_basic_pub_5_template.jpg?t=2023-10-05T16%3A43%3A12.637Z"
             ],
@@ -45,7 +45,7 @@
             },
             "entp_address": "Lotissement les Castors, 16005 Bir Mourad Rais",
             "entp_logo_remote": "https://cdn.pixabay.com/photo/2016/06/13/09/57/meeting-1453895_1280.png",
-            "entp_logo_local": "img_basic_pub_5_entp.jpg"
+            "entp_logo_local": "img_basic_pub_5_entp_0.jpg"
           }
         }
       ]
@@ -57,7 +57,7 @@
       "elementPub": [
         {
           "publication_info": {
-            "imgs_path_local": ["img_basic_pub_7_0.jpg"],
+            "imgs_path_local": ["img_basic_pub_7_0_0.jpg"],
             "imgs_path_remote": [
               "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_basic_pub_7_template.jpg?t=2023-10-05T16%3A44%3A30.218Z"
             ],
@@ -93,7 +93,7 @@
             },
             "entp_address": "Lotissement les Castors, 16005 Bir Mourad Rais",
             "entp_logo_remote": "https://cdn.pixabay.com/photo/2016/06/13/09/57/meeting-1453895_1280.png",
-            "entp_logo_local": "img_basic_pub_7_entp.jpg"
+            "entp_logo_local": "img_basic_pub_7_entp_0.jpg"
           }
         }
       ]
@@ -105,7 +105,7 @@
       "elementPub": [
         {
           "publication_info": {
-            "imgs_path_local": ["img_basic_pub_9_0.jpg"],
+            "imgs_path_local": ["img_basic_pub_9_0_0.jpg"],
             "imgs_path_remote": [
               "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_basic_pub_7_template.jpg?t=2023-10-05T16%3A44%3A30.218Z"
             ],
@@ -140,8 +140,8 @@
               "entp_lat": "8.999212"
             },
             "entp_address": "Lotissement les Castors, 16005 Bir Mourad Rais",
-            "entp_logo_remote": "https://cdn.pixabay.com/photo/2016/06/13/09/57/meeting-1453895_1280.png",
-            "entp_logo_local": "img_basic_pub_9_entp.jpg"
+            "entp_logo_remote": "https://imgs.search.brave.com/arVr0UkKZ-lrulGOXt63NSw8fjhuIHTSF-YxKBSbeWY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDc3NzEx/OTMuanBn",
+            "entp_logo_local": "img_basic_pub_9_entp_0.jpg"
           }
         }
       ]
@@ -153,7 +153,7 @@
       "elementPub": [
         {
           "publication_info": {
-            "imgs_path_local": ["img_basic_pub_10_0.jpg"],
+            "imgs_path_local": ["img_basic_pub_10_0_0.jpg"],
             "imgs_path_remote": [
               "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_basic_pub_10_template.jpg?t=2023-10-05T16%3A46%3A02.260Z"
             ],
@@ -189,7 +189,7 @@
             },
             "entp_address": "Lotissement les Castors, 16005 Bir Mourad Rais",
             "entp_logo_remote": "https://cdn.pixabay.com/photo/2016/06/13/09/57/meeting-1453895_1280.png",
-            "entp_logo_local": "img_basic_pub_10_entp.jpg"
+            "entp_logo_local": "img_basic_pub_10_entp_0.jpg"
           }
         }
       ]
@@ -201,7 +201,7 @@
       "elementPub": [
         {
           "publication_info": {
-            "imgs_path_local": ["img_basic_pub_12_0.jpg"],
+            "imgs_path_local": ["img_basic_pub_12_0_0.jpg"],
             "imgs_path_remote": [
               "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_basic_pub_12_template.jpg?t=2023-10-05T16%3A46%3A32.051Z"
             ],
@@ -236,8 +236,8 @@
               "entp_lat": "8.999212"
             },
             "entp_address": "Lotissement les Castors, 16005 Bir Mourad Rais",
-            "entp_logo_remote": "https://cdn.pixabay.com/photo/2016/06/13/09/57/meeting-1453895_1280.png",
-            "entp_logo_local": "img_basic_pub_12_entp.jpg"
+            "entp_logo_remote": "https://imgs.search.brave.com/arVr0UkKZ-lrulGOXt63NSw8fjhuIHTSF-YxKBSbeWY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDc3NzEx/OTMuanBn",
+            "entp_logo_local": "img_basic_pub_12_entp_0.jpg"
           }
         }
       ]
@@ -249,7 +249,7 @@
       "elementPub": [
         {
           "publication_info": {
-            "imgs_path_local": ["img_basic_pub_13_0.jpg"],
+            "imgs_path_local": ["img_basic_pub_13_0_0.jpg"],
             "imgs_path_remote": [
               "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_basic_pub_13_template.jpg?t=2023-10-05T16%3A47%3A01.742Z"
             ],
@@ -285,7 +285,7 @@
             },
             "entp_address": "Lotissement les Castors, 16005 Bir Mourad Rais",
             "entp_logo_remote": "https://cdn.pixabay.com/photo/2016/06/13/09/57/meeting-1453895_1280.png",
-            "entp_logo_local": "img_basic_pub_13_entp.jpg"
+            "entp_logo_local": "img_basic_pub_13_entp_0.jpg"
           }
         }
       ]
@@ -297,7 +297,7 @@
       "elementPub": [
         {
           "publication_info": {
-            "imgs_path_local": ["img_basic_pub_15_0.jpg"],
+            "imgs_path_local": ["img_basic_pub_15_0_0.jpg"],
             "imgs_path_remote": [
               "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_basic_pub_15_template.jpg?t=2023-10-05T16%3A47%3A29.965Z"
             ],
@@ -332,8 +332,8 @@
               "entp_lat": "8.999212"
             },
             "entp_address": "Lotissement les Castors, 16005 Bir Mourad Rais",
-            "entp_logo_remote": "https://cdn.pixabay.com/photo/2016/06/13/09/57/meeting-1453895_1280.png",
-            "entp_logo_local": "img_basic_pub_15_entp.jpg"
+            "entp_logo_remote": "https://imgs.search.brave.com/arVr0UkKZ-lrulGOXt63NSw8fjhuIHTSF-YxKBSbeWY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDc3NzEx/OTMuanBn",
+            "entp_logo_local": "img_basic_pub_15_entp_0.jpg"
           }
         }
       ]
@@ -344,7 +344,7 @@
       "elementPub": [
         {
           "publication_info": {
-            "imgs_path_local": ["img_basic_pub_16_0.jpg"],
+            "imgs_path_local": ["img_basic_pub_16_0_0.jpg"],
             "imgs_path_remote": [
               "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_basic_pub_16_template.jpg?t=2023-10-05T16%3A48%3A02.090Z"
             ],
@@ -379,8 +379,8 @@
               "entp_lat": "8.999212"
             },
             "entp_address": "Lotissement les Castors, 16005 Bir Mourad Rais",
-            "entp_logo_remote": "https://cdn.pixabay.com/photo/2016/06/13/09/57/meeting-1453895_1280.png",
-            "entp_logo_local": "img_basic_pub_16_entp.jpg"
+            "entp_logo_remote": "https://imgs.search.brave.com/arVr0UkKZ-lrulGOXt63NSw8fjhuIHTSF-YxKBSbeWY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDc3NzEx/OTMuanBn",
+            "entp_logo_local": "img_basic_pub_16_entp_0.jpg"
           }
         }
       ]
@@ -392,7 +392,7 @@
       "elementPub": [
         {
           "publication_info": {
-            "imgs_path_local": ["img_basic_pub_17_0.jpg"],
+            "imgs_path_local": ["img_basic_pub_17_0_0.jpg"],
             "imgs_path_remote": [
               "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_basic_pub_17_template.jpg?t=2023-10-05T16%3A48%3A24.314Z"
             ],
@@ -428,7 +428,7 @@
             },
             "entp_address": "Lotissement les Castors, 16005 Bir Mourad Rais",
             "entp_logo_remote": "https://cdn.pixabay.com/photo/2016/06/13/09/57/meeting-1453895_1280.png",
-            "entp_logo_local": "img_basic_pub_17_entp.jpg"
+            "entp_logo_local": "img_basic_pub_17_entp_0.jpg"
           }
         }
       ]
@@ -440,7 +440,7 @@
       "elementPub": [
         {
           "publication_info": {
-            "imgs_path_local": ["img_basic_pub_18_0.jpg"],
+            "imgs_path_local": ["img_basic_pub_18_0_0.jpg"],
             "imgs_path_remote": [
               "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_basic_pub_18_template.jpg?t=2023-10-05T16%3A48%3A36.396Z"
             ],
@@ -476,7 +476,7 @@
             },
             "entp_address": "Lotissement les Castors, 16005 Bir Mourad Rais",
             "entp_logo_remote": "https://cdn.pixabay.com/photo/2016/06/13/09/57/meeting-1453895_1280.png",
-            "entp_logo_local": "img_basic_pub_18_entp.jpg"
+            "entp_logo_local": "img_basic_pub_18_entp_0.jpg"
           }
         }
       ]
@@ -488,7 +488,7 @@
       "elementPub": [
         {
           "publication_info": {
-            "imgs_path_local": ["img_basic_pub_19_0.jpg"],
+            "imgs_path_local": ["img_basic_pub_19_0_0.jpg"],
             "imgs_path_remote": [
               "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_basic_pub_19_template.jpg?t=2023-10-05T16%3A48%3A36.396Z"
             ],
@@ -524,7 +524,7 @@
             },
             "entp_address": "Lotissement les Castors, 16005 Bir Mourad Rais",
             "entp_logo_remote": "https://cdn.pixabay.com/photo/2016/06/13/09/57/meeting-1453895_1280.png",
-            "entp_logo_local": "img_basic_pub_19_entp.jpg"
+            "entp_logo_local": "img_basic_pub_19_entp_0.jpg"
           }
         }
       ]
@@ -536,7 +536,7 @@
       "elementPub": [
         {
           "publication_info": {
-            "imgs_path_local": ["img_product_pub_3_0.jpg"],
+            "imgs_path_local": ["img_product_pub_3_0_0.jpg"],
             "imgs_path_remote": [
               "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_product_pub_3_template.png?t=2023-10-05T16%3A51%3A40.005Z"
             ],
@@ -571,8 +571,8 @@
               "entp_lat": "8.999212"
             },
             "entp_address": "Lotissement les Castors, 16005 Bir Mourad Rais",
-            "entp_logo_remote": "https://cdn.pixabay.com/photo/2016/06/13/09/57/meeting-1453895_1280.png",
-            "entp_logo_local": "img_product_pub_3_entp.jpg"
+            "entp_logo_remote": "https://imgs.search.brave.com/arVr0UkKZ-lrulGOXt63NSw8fjhuIHTSF-YxKBSbeWY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDc3NzEx/OTMuanBn",
+            "entp_logo_local": "img_product_pub_3_entp_0.jpg"
           }
         }
       ]
@@ -584,7 +584,7 @@
       "elementPub": [
         {
           "publication_info": {
-            "imgs_path_local": ["img_product_pub_4_0.jpg"],
+            "imgs_path_local": ["img_product_pub_4_0_0.jpg"],
             "imgs_path_remote": [
               "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_product_pub_4_template.png?t=2023-10-05T16%3A51%3A40.005Z"
             ],
@@ -620,7 +620,7 @@
             },
             "entp_address": "Lotissement les Castors, 16005 Bir Mourad Rais",
             "entp_logo_remote": "https://cdn.pixabay.com/photo/2016/06/13/09/57/meeting-1453895_1280.png",
-            "entp_logo_local": "img_product_pub_4_entp.jpg"
+            "entp_logo_local": "img_product_pub_4_entp_0.jpg"
           }
         }
       ]
@@ -678,8 +678,8 @@
               "entp_lat": "8.999212"
             },
             "entp_address": "Lotissement les Castors, 16005 Bir Mourad Rais",
-            "entp_logo_remote": "",
-            "entp_logo_local": ""
+            "entp_logo_remote": "https://imgs.search.brave.com/arVr0UkKZ-lrulGOXt63NSw8fjhuIHTSF-YxKBSbeWY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDc3NzEx/OTMuanBn",
+            "entp_logo_local": "img_slides_pub_1_entp_0"
           }
         }
       ]
@@ -737,8 +737,8 @@
               "entp_lat": "8.999212"
             },
             "entp_address": "Lotissement les Castors, 16005 Bir Mourad Rais",
-            "entp_logo_remote": "",
-            "entp_logo_local": ""
+            "entp_logo_remote": "https://imgs.search.brave.com/arVr0UkKZ-lrulGOXt63NSw8fjhuIHTSF-YxKBSbeWY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDc3NzEx/OTMuanBn",
+            "entp_logo_local": "img_slides_pub_6_entp_1"
           }
         }
       ]
@@ -796,8 +796,8 @@
               "entp_lat": "8.999212"
             },
             "entp_address": "Lotissement les Castors, 16005 Bir Mourad Rais",
-            "entp_logo_remote": "",
-            "entp_logo_local": ""
+            "entp_logo_remote": "https://imgs.search.brave.com/arVr0UkKZ-lrulGOXt63NSw8fjhuIHTSF-YxKBSbeWY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDc3NzEx/OTMuanBn",
+            "entp_logo_local": "img_slides_pub_8_entp_2"
           }
         }
       ]
@@ -855,8 +855,8 @@
               "entp_lat": "8.999212"
             },
             "entp_address": "Lotissement les Castors, 16005 Bir Mourad Rais",
-            "entp_logo_remote": "",
-            "entp_logo_local": ""
+            "entp_logo_remote": "https://imgs.search.brave.com/arVr0UkKZ-lrulGOXt63NSw8fjhuIHTSF-YxKBSbeWY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDc3NzEx/OTMuanBn",
+            "entp_logo_local": "img_slides_pub_11_entp_3"
           }
         }
       ]
@@ -914,8 +914,8 @@
               "entp_lat": "8.999212"
             },
             "entp_address": "Lotissement les Castors, 16005 Bir Mourad Rais",
-            "entp_logo_remote": "",
-            "entp_logo_local": ""
+            "entp_logo_remote": "https://imgs.search.brave.com/arVr0UkKZ-lrulGOXt63NSw8fjhuIHTSF-YxKBSbeWY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDc3NzEx/OTMuanBn",
+            "entp_logo_local": "img_slides_pub_14_entp_4"
           }
         }
       ]
@@ -943,7 +943,7 @@
           "entreprise_info": {
             "entp_title": "tirassam",
             "entp_sub_title": "sous_tirassam",
-            "entp_description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the   standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+            "entp_description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
             "entp_image_remote": [""],
             "entp_image_local": [""],
             "entp_reseaux_sociaux": {
@@ -962,7 +962,7 @@
               "entp_lat": "8.999212"
             },
             "entp_address": "Lotissement les Castors, 16005 Bir Mourad Rais",
-            "entp_logo_remote": "https://cdn.pixabay.com/photo/2016/06/13/09/57/meeting-1453895_1280.png",
+            "entp_logo_remote": "https://imgs.search.brave.com/arVr0UkKZ-lrulGOXt63NSw8fjhuIHTSF-YxKBSbeWY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDc3NzEx/OTMuanBn",
             "entp_logo_local": "img_hr_pub_2_entp.jpg"
           }
         }
@@ -975,7 +975,7 @@
       "elementPub": [
         {
           "publication_info": {
-            "imgs_path_local": ["img_vr_pub_4_0.jpg"],
+            "imgs_path_local": ["img_vr_pub_4_0_0.jpg"],
             "imgs_path_remote": [
               "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_vr_pub_4_template.jpg"
             ],
@@ -1018,19 +1018,19 @@
     }
   ],
   "images_locales": [
-    "img_basic_pub_5_0.jpg",
-    "img_basic_pub_7_0.jpg",
-    "img_basic_pub_9_0.jpg",
-    "img_basic_pub_10_0.jpg",
-    "img_basic_pub_12_0.jpg",
-    "img_basic_pub_13_0.jpg",
-    "img_basic_pub_15_0.jpg",
-    "img_basic_pub_16_0.jpg",
-    "img_basic_pub_17_0.jpg",
-    "img_basic_pub_18_0.jpg",
-    "img_basic_pub_19_0.jpg",
-    "img_product_pub_3_0.jpg",
-    "img_product_pub_4_0.jpg",
+    "img_basic_pub_5_0_0.jpg",
+    "img_basic_pub_7_0_0.jpg",
+    "img_basic_pub_9_0_0.jpg",
+    "img_basic_pub_10_0_0.jpg",
+    "img_basic_pub_12_0_0.jpg",
+    "img_basic_pub_13_0_0.jpg",
+    "img_basic_pub_15_0_0.jpg",
+    "img_basic_pub_16_0_0.jpg",
+    "img_basic_pub_17_0_0.jpg",
+    "img_basic_pub_18_0_0.jpg",
+    "img_basic_pub_19_0_0.jpg",
+    "img_product_pub_3_0_0.jpg",
+    "img_product_pub_4_0_0.jpg",
     "img_slides_pub_1_0_0.jpg",
     "img_slides_pub_1_0_1.jpg",
     "img_slides_pub_1_0_2.jpg",
@@ -1060,19 +1060,26 @@
     "img_vr_pub_4_0.jpg",
     "img_vr_pub_4_entp.jpg",
     "img_hr_pub_2_entp.jpg",
-    "img_product_pub_4_entp.jpg",
-    "img_product_pub_3_entp.jpg",
-    "img_basic_pub_18_entp.jpg",
-    "img_basic_pub_17_entp.jpg",
-    "img_basic_pub_19_entp.jpg",
-    "img_basic_pub_16_entp.jpg",
-    "img_basic_pub_15_entp.jpg",
-    "img_basic_pub_13_entp.jpg",
-    "img_basic_pub_12_entp.jpg",
+    "img_product_pub_4_entp_0.jpg",
+    "img_product_pub_3_entp_0.jpg",
+    "img_basic_pub_18_entp_0.jpg",
+    "img_basic_pub_17_entp_0.jpg",
+    "img_basic_pub_19_entp_0.jpg",
+    "img_basic_pub_16_entp_0.jpg",
+    "img_basic_pub_15_entp_0.jpg",
+    "img_basic_pub_13_entp_0.jpg",
+    "img_basic_pub_12_entp_0.jpg",
     "img_basic_pub_10_entp.jpg",
-    "img_basic_pub_9_entp.jpg",
-    "img_basic_pub_7_entp.jpg",
-    "img_basic_pub_5_entp.jpg"
+    "img_basic_pub_9_entp_0.jpg",
+    "img_basic_pub_7_entp_0.jpg",
+    "img_basic_pub_5_entp_0.jpg",
+    "img_basic_pub_10_entp_0.jpg",
+    "img_vr_pub_4_bg.jpg",
+    "img_slides_pub_14_entp_4",
+    "img_slides_pub_11_entp_3",
+    "img_slides_pub_8_entp_2",
+    "img_slides_pub_6_entp_1",
+    "img_slides_pub_1_entp_0"
   ],
   "images_remotes": [
     "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_basic_pub_5_template.jpg",
@@ -1113,8 +1120,10 @@
     "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_sliders_pub_14_templatev3.jpg",
     "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_sliders_pub_14_templatev4.jpg",
     "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_sliders_pub_14_templatev5.jpg",
+    "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_vr_pub_3_template.jpg",
     "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_hr_pub_2_template.jpg",
     "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_vr_pub_4_template.jpg",
-    "https://cdn.pixabay.com/photo/2016/06/13/09/57/meeting-1453895_1280.png"
+    "https://cdn.pixabay.com/photo/2016/06/13/09/57/meeting-1453895_1280.png",
+    "https://imgs.search.brave.com/arVr0UkKZ-lrulGOXt63NSw8fjhuIHTSF-YxKBSbeWY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDc3NzEx/OTMuanBn"
   ]
 }
