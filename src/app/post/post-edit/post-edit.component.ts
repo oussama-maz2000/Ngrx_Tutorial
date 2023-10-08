@@ -5,7 +5,7 @@ import { AppState } from 'src/app/app_State/app.state';
 import { getPostById } from '../shared/post.select';
 
 import { FormControl, FormGroup, Validators } from '@angular/forms';
-import { updatePost } from '../shared/post.action';
+import { updatePost, updatePost_AC } from '../shared/post.action';
 import { Post } from 'src/app/model/classes/Post.model';
 
 @Component({
@@ -55,7 +55,7 @@ export class PostEditComponent implements OnInit {
       img: this.postForm.value.img,
     };
 
-    this.store.dispatch(updatePost({ post }));
+    this.store.dispatch(updatePost_AC({ post }));
     this.router.navigate(['post']);
   }
 }

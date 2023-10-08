@@ -2,13 +2,13 @@
   "time_download": "1695722",
   "serie_update": "222",
   "account_update": "0",
-  "pubs": [
+  "ancs": [
     {
       "typeModel": "img_basic",
-      "emplacement": "pub_5",
-      "elementPub": [
+      "emplacement": "anc_5",
+      "elementAnc": [
         {
-          "publication_info": {
+          "annonce_info": {
             "imgs_path_local": ["img_basic_pub_5_0_0.jpg"],
             "imgs_path_remote": [
               "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_basic_pub_5_template.jpg?t=2023-10-05T16%3A43%3A12.637Z"
@@ -53,10 +53,10 @@
 
     {
       "typeModel": "img_basic",
-      "emplacement": "pub_7",
-      "elementPub": [
+      "emplacement": "anc_7",
+      "elementAnc": [
         {
-          "publication_info": {
+          "annonce_info": {
             "imgs_path_local": ["img_basic_pub_7_0_0.jpg"],
             "imgs_path_remote": [
               "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_basic_pub_7_template.jpg?t=2023-10-05T16%3A44%3A30.218Z"
@@ -101,10 +101,10 @@
 
     {
       "typeModel": "img_basic",
-      "emplacement": "pub_9",
-      "elementPub": [
+      "emplacement": "anc_9",
+      "elementAnc": [
         {
-          "publication_info": {
+          "annonce_info": {
             "imgs_path_local": ["img_basic_pub_9_0_0.jpg"],
             "imgs_path_remote": [
               "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_basic_pub_7_template.jpg?t=2023-10-05T16%3A44%3A30.218Z"
@@ -149,10 +149,10 @@
 
     {
       "typeModel": "img_basic",
-      "emplacement": "pub_10",
-      "elementPub": [
+      "emplacement": "anc_10",
+      "elementAnc": [
         {
-          "publication_info": {
+          "annonce_info": {
             "imgs_path_local": ["img_basic_pub_10_0_0.jpg"],
             "imgs_path_remote": [
               "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_basic_pub_10_template.jpg?t=2023-10-05T16%3A46%3A02.260Z"
@@ -197,10 +197,10 @@
 
     {
       "typeModel": "img_basic",
-      "emplacement": "pub_12",
-      "elementPub": [
+      "emplacement": "anc_12",
+      "elementAnc": [
         {
-          "publication_info": {
+          "annonce_info": {
             "imgs_path_local": ["img_basic_pub_12_0_0.jpg"],
             "imgs_path_remote": [
               "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_basic_pub_12_template.jpg?t=2023-10-05T16%3A46%3A32.051Z"
@@ -245,10 +245,10 @@
 
     {
       "typeModel": "img_basic",
-      "emplacement": "pub_13",
-      "elementPub": [
+      "emplacement": "anc_13",
+      "elementAnc": [
         {
-          "publication_info": {
+          "annonce_info": {
             "imgs_path_local": ["img_basic_pub_13_0_0.jpg"],
             "imgs_path_remote": [
               "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_basic_pub_13_template.jpg?t=2023-10-05T16%3A47%3A01.742Z"
@@ -293,10 +293,10 @@
 
     {
       "typeModel": "img_basic",
-      "emplacement": "pub_15",
-      "elementPub": [
+      "emplacement": "anc_15",
+      "elementAnc": [
         {
-          "publication_info": {
+          "annonce_info": {
             "imgs_path_local": ["img_basic_pub_15_0_0.jpg"],
             "imgs_path_remote": [
               "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_basic_pub_15_template.jpg?t=2023-10-05T16%3A47%3A29.965Z"
@@ -340,10 +340,10 @@
     },
     {
       "typeModel": "img_basic",
-      "emplacement": "pub_16",
-      "elementPub": [
+      "emplacement": "anc_16",
+      "elementAnc": [
         {
-          "publication_info": {
+          "annonce_info": {
             "imgs_path_local": ["img_basic_pub_16_0_0.jpg"],
             "imgs_path_remote": [
               "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_basic_pub_16_template.jpg?t=2023-10-05T16%3A48%3A02.090Z"
@@ -388,10 +388,10 @@
 
     {
       "typeModel": "img_basic",
-      "emplacement": "pub_17",
-      "elementPub": [
+      "emplacement": "anc_17",
+      "elementAnc": [
         {
-          "publication_info": {
+          "annonce_info": {
             "imgs_path_local": ["img_basic_pub_17_0_0.jpg"],
             "imgs_path_remote": [
               "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_basic_pub_17_template.jpg?t=2023-10-05T16%3A48%3A24.314Z"
@@ -436,10 +436,10 @@
 
     {
       "typeModel": "img_basic",
-      "emplacement": "pub_18",
-      "elementPub": [
+      "emplacement": "anc_18",
+      "elementAnc": [
         {
-          "publication_info": {
+          "annonce_info": {
             "imgs_path_local": ["img_basic_pub_18_0_0.jpg"],
             "imgs_path_remote": [
               "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_basic_pub_18_template.jpg?t=2023-10-05T16%3A48%3A36.396Z"
@@ -484,10 +484,10 @@
 
     {
       "typeModel": "img_basic",
-      "emplacement": "pub_19",
-      "elementPub": [
+      "emplacement": "anc_19",
+      "elementAnc": [
         {
-          "publication_info": {
+          "annonce_info": {
             "imgs_path_local": ["img_basic_pub_19_0_0.jpg"],
             "imgs_path_remote": [
               "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_basic_pub_19_template.jpg?t=2023-10-05T16%3A48%3A36.396Z"
@@ -532,10 +532,10 @@
 
     {
       "typeModel": "img_product",
-      "emplacement": "pub_3",
-      "elementPub": [
+      "emplacement": "anc_3",
+      "elementAnc": [
         {
-          "publication_info": {
+          "annonce_info": {
             "imgs_path_local": ["img_product_pub_3_0_0.jpg"],
             "imgs_path_remote": [
               "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_product_pub_3_template.png?t=2023-10-05T16%3A51%3A40.005Z"
@@ -580,10 +580,10 @@
 
     {
       "typeModel": "img_product",
-      "emplacement": "pub_4",
-      "elementPub": [
+      "emplacement": "anc_4",
+      "elementAnc": [
         {
-          "publication_info": {
+          "annonce_info": {
             "imgs_path_local": ["img_product_pub_4_0_0.jpg"],
             "imgs_path_remote": [
               "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_product_pub_4_template.png?t=2023-10-05T16%3A51%3A40.005Z"
@@ -628,10 +628,10 @@
 
     {
       "typeModel": "img_slides",
-      "emplacement": "pub_1",
-      "elementPub": [
+      "emplacement": "anc_1",
+      "elementAnc": [
         {
-          "publication_info": {
+          "annonce_info": {
             "imgs_path_local": [
               "img_slides_pub_1_0_0.jpg",
               "img_slides_pub_1_0_1.jpg",
@@ -687,10 +687,10 @@
 
     {
       "typeModel": "img_slides",
-      "emplacement": "pub_6",
-      "elementPub": [
+      "emplacement": "anc_6",
+      "elementAnc": [
         {
-          "publication_info": {
+          "annonce_info": {
             "imgs_path_local": [
               "img_slides_pub_6_1_0.jpg",
               "img_slides_pub_6_1_1.jpg",
@@ -746,10 +746,10 @@
 
     {
       "typeModel": "img_slides",
-      "emplacement": "pub_8",
-      "elementPub": [
+      "emplacement": "anc_8",
+      "elementAnc": [
         {
-          "publication_info": {
+          "annonce_info": {
             "imgs_path_local": [
               "img_slides_pub_8_2_0.jpg",
               "img_slides_pub_8_2_1.jpg",
@@ -805,10 +805,10 @@
 
     {
       "typeModel": "img_slides",
-      "emplacement": "pub_11",
-      "elementPub": [
+      "emplacement": "anc_11",
+      "elementAnc": [
         {
-          "publication_info": {
+          "annonce_info": {
             "imgs_path_local": [
               "img_slides_pub_11_3_0.jpg",
               "img_slides_pub_11_3_1.jpg",
@@ -864,10 +864,10 @@
 
     {
       "typeModel": "img_slides",
-      "emplacement": "pub_14",
-      "elementPub": [
+      "emplacement": "anc_14",
+      "elementAnc": [
         {
-          "publication_info": {
+          "annonce_info": {
             "imgs_path_local": [
               "img_slides_pub_14_4_0.jpg",
               "img_slides_pub_14_4_1.jpg",
@@ -923,10 +923,10 @@
 
     {
       "typeModel": "img_hr",
-      "emplacement": "pub_2",
-      "elementPub": [
+      "emplacement": "anc_2",
+      "elementAnc": [
         {
-          "publication_info": {
+          "annonce_info": {
             "imgs_path_local": ["img_hr_pub_2_0.jpg"],
             "imgs_path_remote": [
               "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_hr_pub_2_template.jpg?t=2023-10-05T16%3A54%3A03.575Z"
@@ -971,10 +971,10 @@
 
     {
       "typeModel": "img_vr",
-      "emplacement": "pub_4",
-      "elementPub": [
+      "emplacement": "anc_4",
+      "elementAnc": [
         {
-          "publication_info": {
+          "annonce_info": {
             "imgs_path_local": ["img_vr_pub_4_0_0.jpg"],
             "imgs_path_remote": [
               "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_vr_pub_4_template.jpg"

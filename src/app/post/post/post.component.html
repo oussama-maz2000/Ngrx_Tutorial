@@ -1,25 +1,22 @@
 <div class="row">
-    <div>
-
+  <div></div>
+  <div class="col-7">
+    <a class="btn btn-success" [routerLink]="['/post/add']">add post</a>
+    <div *ngFor="let i of posts | async" class="my-3">
+      <div class="card text-dark bg-primary mb-3" style="max-width: 18rem">
+        <div class="card-header">{{ i.title }}</div>
+        <div class="card-body">
+          <h5 class="card-title">{{ i.body }}</h5>
+          <p class="card-text">{{ i.description }}</p>
+          <div class="d-flex justify-content-between">
+            <i class="bi bi-arrow-clockwise" [routerLink]="['edit', i.id]"></i>
+            <i class="bi bi-trash" (click)="onDeletePost(i.id)"></i>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="col-7 ">
-        <a class="btn btn-success" [routerLink]="['/post/add']">add post</a>
-        <!-- <div *ngFor="let i of posts|async" class="my-3">
-            <div>{{i.id}}</div>
-            <h2>{{i.title}}</h2>
-            <label>{{i.description}}</label>
-            <div><img src={{i.img}} alt="..."></div>
-            <button class="btn btn-warning my-2" [routerLink]="['edit',i.id]"><i
-                    class="bi bi-arrow-clockwise">edit</i></button>
-
-            <button class="btn btn-danger my-2 mx-1" (click)="onDeletePost(i.id)"><i
-                    class="bi bi-trash">delete</i></button>
-            <hr>
-        </div> -->
-
-
-    </div>
-    <div class="col-5">
-        <router-outlet></router-outlet>
-    </div>
+  </div>
+  <div class="col-5">
+    <router-outlet></router-outlet>
+  </div>
 </div>

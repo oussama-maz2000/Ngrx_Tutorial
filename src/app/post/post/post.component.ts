@@ -19,6 +19,7 @@ export class PostComponent implements OnInit {
   ngOnInit(): void {
     /* this.posts = this.store.select(getPosts);
     console.log(this.posts); */
+    this.posts = this.store.select(getPosts);
     this.store.dispatch(loadPosts_AC());
   }
 
