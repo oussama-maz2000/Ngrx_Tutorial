@@ -2,8 +2,10 @@ import { Injectable } from '@angular/core';
 import { Actions, createEffect, ofType } from '@ngrx/effects';
 import { Action } from '@ngrx/store';
 import {
+  addPost_AC,
   loadPostsSuccess_AC,
   loadPosts_AC,
+  loadingPosts_AC,
   updatePostSuccess_AC,
   updatePost_AC,
 } from './post.action';
@@ -35,6 +37,38 @@ export class PostEffect {
         switchMap((action) => {
           console.table(['action ', action]);
           return of(updatePostSuccess_AC({ post: null }));
+        })
+      );
+    },
+    { dispatch: false }
+  );
+
+  addPost$ = createEffect(
+    () => {
+      return this.actions$.pipe(
+        ofType(addPost_AC),
+        mergeMap((action) => {
+          return this.postService.addPost(action.post).pipe(
+            map((data) => {
+              console.log(data);
+            })
+          );
+        })
+      );
+    },
+    { dispatch: false }
+  );
+
+  getPosts$ = createEffect(
+    () => {
+      return this.actions$.pipe(
+        ofType(loadingPosts_AC),
+        mergeMap((action) => {
+          return this.postService.getPosts2().pipe(
+            map((data) => {
+              console.log(data);
+            })
+          );
         })
       );
     },
