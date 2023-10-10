@@ -11,6 +11,9 @@ const LOAD_POSTS_SUCCESS = '[POST] load posts success';
 const UPDATE_POST = '[POST] update post action';
 const UPDATE_POST_SUCCESS = '[POST] update post action success';
 
+const ADD_POST = '[POST] add post ';
+const ADD_POST_SUCCESS = '[POST] post added success';
+
 export const addPost = createAction(POST_ADD, props<{ post: Post }>());
 export const updatePost = createAction(POST_UPDATE, props<{ post: Post }>());
 export const deletePost = createAction(POST_DELETE, props<{ id: number }>());
@@ -25,4 +28,10 @@ export const updatePost_AC = createAction(UPDATE_POST, props<{ post: Post }>());
 export const updatePostSuccess_AC = createAction(
   UPDATE_POST_SUCCESS,
   props<{ post: Post }>()
+);
+
+export const addPost_AC = createAction(ADD_POST, props<{ post: Post }>);
+export const addPostSuccess_AC = createAction(
+  ADD_POST_SUCCESS,
+  props<{ post: Post }>
 );
