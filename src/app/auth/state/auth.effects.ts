@@ -121,7 +121,7 @@ export class AuthEffect {
         ofType(logOut_Action),
         map((data) => {
           this.serviceAuth.logOutService();
-          this.router.navigate(['/auth']);
+          this.router.createUrlTree(['auth']);
         })
       );
     },

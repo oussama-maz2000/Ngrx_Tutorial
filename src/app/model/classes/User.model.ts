@@ -9,4 +9,8 @@ export class User {
   public get expirationDate() {
     return this._expirationDate;
   }
+
+  public get toke() {
+    return this._token;
+  }
 }

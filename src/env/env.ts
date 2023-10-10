@@ -1,4 +1,4 @@
 export const environement = {
   production: false,
-  FIREBASE_API_KEY: 'AIzaSyD4HBq0Rcsy0oWLtaT_UAvZCRa7d0N0wCU',
+  FIREBASE_API_KEY: 'AIzaSyDS49TdZt6CC3DLj5WdIycGxGfar6YU04A',
 };

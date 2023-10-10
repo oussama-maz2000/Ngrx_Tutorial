@@ -17,7 +17,8 @@ export class HeaderComponent implements OnInit {
     this.isAuthenticated = this.store.select(isAuthenticated);
   }
 
-  logOut() {
+  logOut(event: Event) {
+    event.preventDefault();
     this.store.dispatch(logOut_Action());
   }
 }

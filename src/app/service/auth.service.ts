@@ -6,13 +6,18 @@ import { Observable } from 'rxjs';
 import { User } from '../model/classes/User.model';
 import { Store } from '@ngrx/store';
 import { logOut_Action } from '../auth/state/auth.actions';
+import { Router } from '@angular/router';
 
 @Injectable({
   providedIn: 'root',
 })
 export class AuthService {
   timeOutInterval: any;
-  constructor(private http: HttpClient, private store: Store) {}
+  constructor(
+    private http: HttpClient,
+    private store: Store,
+    private router: Router
+  ) {}
 
   loginUser(email: string, password: string): Observable<AuthResponse> {
     return this.http.post<AuthResponse>(
@@ -81,6 +86,8 @@ export class AuthService {
     let currentTime = new Date().getTime();
     let expirationDate = user.expirationDate.getTime();
     let timeInterval = expirationDate - currentTime;
+    console.log(timeInterval);
+
     this.timeOutInterval = setTimeout(() => {
       this.store.dispatch(logOut_Action());
     }, timeInterval);
@@ -103,11 +110,12 @@ export class AuthService {
     return null;
   }
 
-  logOutService() {
+  async logOutService() {
     localStorage.removeItem('userData');
     if (this.timeOutInterval) {
       clearTimeout(this.timeOutInterval);
       this.timeOutInterval = null;
     }
+    this.router.navigate(['auth'], { replaceUrl: true });
   }
 }

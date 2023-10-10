@@ -4,7 +4,11 @@ import { Observable } from 'rxjs';
 import { Store } from '@ngrx/store';
 import { AppState } from 'src/app/app_State/app.state';
 import { getPosts } from '../shared/post.select';
-import { deletePost, loadPosts_AC } from '../shared/post.action';
+import {
+  deletePost,
+  loadPosts_AC,
+  loadingPosts_AC,
+} from '../shared/post.action';
 import { Post } from 'src/app/model/classes/Post.model';
 
 @Component({

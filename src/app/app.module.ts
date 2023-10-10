@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { RxjsComponent } from './RxJs/rxjs/rxjs.component';
-import { HttpClientModule } from '@angular/common/http';
+import { HTTP_INTERCEPTORS, HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { UserEditComponent } from './RxJs/user-edit/user-edit.component';
 
@@ -15,6 +15,7 @@ import { EffectsModule } from '@ngrx/effects';
 import { LoadingSpinnerComponent } from './shared/loading-spinner/loading-spinner.component';
 import { appReducer } from './app_State/app.state';
 import { AuthEffect } from './auth/state/auth.effects';
+import { AuthTokenInterceptor } from './service/authToken.service';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,9 @@ import { AuthEffect } from './auth/state/auth.effects';
     StoreModule.forRoot(appReducer),
     StoreDevtoolsModule.instrument({ logOnly: !isDevMode() }),
   ],
-  providers: [],
+  providers: [
+    { provide: HTTP_INTERCEPTORS, useClass: AuthTokenInterceptor, multi: true },
+  ],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

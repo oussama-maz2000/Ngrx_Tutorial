@@ -3,7 +3,7 @@ import { FormControl, FormGroup, Validators } from '@angular/forms';
 
 import { Store } from '@ngrx/store';
 import { AppState } from 'src/app/app_State/app.state';
-import { addPost } from '../shared/post.action';
+import { addPost, addPost_AC } from '../shared/post.action';
 import { Post } from 'src/app/model/classes/Post.model';
 
 @Component({
@@ -36,5 +36,6 @@ export class PostAddComponent implements OnInit {
       img: this.postForm.value.img,
     };
     this.store.dispatch(addPost({ post }));
+    this.store.dispatch(addPost_AC({ post: post }));
   }
 }
