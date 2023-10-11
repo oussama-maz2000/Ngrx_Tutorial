@@ -26,11 +26,11 @@ export class PostEditComponent implements OnInit {
   ngOnInit(): void {
     this.createFormPostUpdate();
     this.store.select(getPostById).subscribe((post) => {
-      console.log(post);
-
       if (post) {
         this.post = post;
         this.postForm.patchValue({
+          id: post.id,
+          userId: post.userId,
           title: post.title,
           body: post.body,
           description: post.description,
@@ -42,11 +42,11 @@ export class PostEditComponent implements OnInit {
 
   createFormPostUpdate() {
     this.postForm = new FormGroup({
-      userId: new FormControl(null, [Validators.required]),
-      title: new FormControl(null, [Validators.required]),
-      body: new FormControl(null, [Validators.required]),
-      description: new FormControl(null, [Validators.required]),
-      img: new FormControl(null, [Validators.required]),
+      userId: new FormControl('null', [Validators.required]),
+      title: new FormControl('null', [Validators.required]),
+      body: new FormControl('null', [Validators.required]),
+      description: new FormControl('null', [Validators.required]),
+      img: new FormControl('null', [Validators.required]),
     });
   }
 

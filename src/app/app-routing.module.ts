@@ -9,6 +9,7 @@ import { PostComponent } from './post/post/post.component';
 import { PostAddComponent } from './post/post-add/post-add.component';
 import { PostEditComponent } from './post/post-edit/post-edit.component';
 import { AuthGuard } from './service/auth.guard';
+import { PostSingleComponent } from './post/post-single/post-single.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -24,6 +25,11 @@ const routes: Routes = [
     loadChildren: () =>
       import('./post/post.module').then((module) => module.PostModule),
     canActivate: [AuthGuard],
+  },
+
+  {
+    path: 'post/details/:id',
+    component: PostSingleComponent,
   },
   {
     path: 'auth',

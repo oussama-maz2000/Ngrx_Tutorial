@@ -9,6 +9,7 @@ import { StoreModule } from '@ngrx/store';
 import { postReducer } from './shared/post.reducer';
 import { EffectsModule } from '@ngrx/effects';
 import { PostEffect } from './shared/post.effect';
+import { PostSingleComponent } from './post-single/post-single.component';
 
 const routes: Routes = [
   {
@@ -22,7 +23,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  declarations: [PostEditComponent, PostAddComponent, PostComponent],
+  declarations: [PostEditComponent, PostAddComponent, PostComponent, PostSingleComponent],
   imports: [
     CommonModule,
     ReactiveFormsModule,

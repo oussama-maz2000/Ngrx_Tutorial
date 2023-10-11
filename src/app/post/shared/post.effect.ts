@@ -9,9 +9,10 @@ import {
   updatePostSuccess_AC,
   updatePost_AC,
 } from './post.action';
-import { map, mergeMap, of, switchMap } from 'rxjs';
+import { filter, map, mergeMap, of, switchMap } from 'rxjs';
 import { PostService } from 'src/app/service/post.service';
 import { Post } from 'src/app/model/classes/Post.model';
+import { ROUTER_NAVIGATION, RouterNavigatedAction } from '@ngrx/router-store';
 
 @Injectable()
 export class PostEffect {
@@ -58,4 +59,37 @@ export class PostEffect {
     },
     { dispatch: false }
   );
+
+  getSinglePost$ = createEffect(() => {
+    return this.actions$.pipe(
+      ofType(ROUTER_NAVIGATION),
+      filter((router: RouterNavigatedAction) => {
+        console.log(
+          'router in filter ',
+          router.payload.routerState.url.startsWith('/post/details')
+        );
+
+        return router.payload.routerState.url.startsWith('/post/details');
+      }),
+      map((router: RouterNavigatedAction) => {
+        console.log(
+          'router in map function ',
+          router.payload.routerState['params']['id']
+        );
+
+        return router.payload.routerState['params']['id'];
+      }),
+      switchMap((id) => {
+        console.log('log id in switchmap ', id);
+
+        return this.postService.getSinglePost(id).pipe(
+          map((post) => {
+            let postData = [{ ...post, id }];
+
+            return loadPostsSuccess_AC({ posts: postData });
+          })
+        );
+      })
+    );
+  });
 }

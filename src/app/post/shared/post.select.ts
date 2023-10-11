@@ -20,7 +20,7 @@ export const getPosts = createSelector(getPostsState, (state) => {
   }
 ); */
 
-export const getPostById = createSelector(
+/* export const getPostById = createSelector(
   getPosts,
   getcurrentRouter,
   (posts, router) => {
@@ -28,5 +28,13 @@ export const getPostById = createSelector(
       return null;
     }
     return posts.find((post) => post.id === +router.params['id']);
+  }
+);
+ */
+export const getPostById = createSelector(
+  getPosts,
+  getcurrentRouter,
+  (posts, route: RouterStateUrl) => {
+    return posts ? posts.find((post) => post.id === route.params['id']) : null;
   }
 );

@@ -1,0 +1,6 @@
+<div class="continer" *ngIf="post | async as data">
+  <h4>{{ data.userId }}</h4>
+  <h4>{{ data.id }}</h4>
+  <h4>{{ data.title }}</h4>
+  <h4>{{ data.body }}</h4>
+</div>

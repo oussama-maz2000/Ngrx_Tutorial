@@ -1,32 +1,43 @@
 <div class="continer">
-    <div class="row">
-        <div class="col-12">
-            <h1>Update Post</h1>
-            <hr>
-            <form [formGroup]="postForm" (ngSubmit)="submitFormPost()">
-
-
-
-                <div class="mb-3">
-                    <label class="form-label">title</label>
-                    <input type="text" class="form-control" placeholder="title" formControlName="title">
-                </div>
-
-                <div class="mb-3">
-                    <label class="form-label">description</label>
-                    <input type="text" class="form-control" placeholder="description" formControlName="description">
-                </div>
-
-                <div class="mb-3">
-                    <label class="form-label">image path</label>
-                    <input type="text" class="form-control" placeholder="image path" formControlName="img">
-                </div>
-
-
-                <div class="mb-3">
-                    <button class="btn btn-primary">update</button>
-                </div>
-            </form>
+  <div class="row">
+    <div class="col-12">
+      <h1>Update Post</h1>
+      <hr />
+      <form [formGroup]="postForm" (ngSubmit)="submitFormPost()">
+        <div class="mb-3">
+          <label class="form-label">title</label>
+          <input
+            type="text"
+            class="form-control"
+            placeholder="title"
+            formControlName="title"
+          />
         </div>
+
+        <div class="mb-3">
+          <label class="form-label">description</label>
+          <input
+            type="text"
+            class="form-control"
+            placeholder="description"
+            formControlName="description"
+          />
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label">image path</label>
+          <input
+            type="text"
+            class="form-control"
+            placeholder="image path"
+            formControlName="img"
+          />
+        </div>
+
+        <div class="mb-3">
+          <button class="btn btn-primary">update</button>
+        </div>
+      </form>
     </div>
+  </div>
 </div>
