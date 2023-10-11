@@ -4,650 +4,14 @@
   "account_update": "0",
   "ancs": [
     {
-      "typeModel": "img_basic",
-      "emplacement": "anc_5",
-      "elementAnc": [
-        {
-          "annonce_info": {
-            "imgs_path_local": ["img_basic_pub_5_0_0.jpg"],
-            "imgs_path_remote": [
-              "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_basic_pub_5_template.jpg?t=2023-10-05T16%3A43%3A12.637Z"
-            ],
-            "title": "first publication",
-            "sub_title": "first sub title of publication",
-            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
-            "link_voir_plus": "link vers la pulicitie ou le site web de l'entreprise s'il exist bien sur",
-            "button_text": "",
-            "note": "Life is a journey of moments, some filled with joy, others with challenges. Embrace them all, for they shape the beautiful mosaic of your existence.",
-            "badge": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
-            "background_img_remote": "",
-            "background_img_local": ""
-          },
-          "entreprise_info": {
-            "entp_title": "tirassam",
-            "entp_sub_title": "sous_tirassam",
-            "entp_description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the   standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
-            "entp_image_remote": [""],
-            "entp_image_local": [""],
-            "entp_reseaux_sociaux": {
-              "facebook": "facebook.com",
-              "website": "website.com",
-              "instegram": "instegram.com"
-            },
-            "entp_phone_number": {
-              "fix": "044998844",
-              "fax": "044998844",
-              "num_1": "0766554455",
-              "num_2": "0543672218"
-            },
-            "entp_maps": {
-              "entp_lng": "2.887444",
-              "entp_lat": "8.999212"
-            },
-            "entp_address": "Lotissement les Castors, 16005 Bir Mourad Rais",
-            "entp_logo_remote": "https://cdn.pixabay.com/photo/2016/06/13/09/57/meeting-1453895_1280.png",
-            "entp_logo_local": "img_basic_pub_5_entp_0.jpg"
-          }
-        }
-      ]
-    },
-
-    {
-      "typeModel": "img_basic",
-      "emplacement": "anc_7",
-      "elementAnc": [
-        {
-          "annonce_info": {
-            "imgs_path_local": ["img_basic_pub_7_0_0.jpg"],
-            "imgs_path_remote": [
-              "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_basic_pub_7_template.jpg?t=2023-10-05T16%3A44%3A30.218Z"
-            ],
-            "title": "first publication",
-            "sub_title": "first sub title of publication",
-            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
-            "link_voir_plus": "link vers la pulicitie ou le site web de l'entreprise s'il exist bien sur",
-            "note": "Life is a journey of moments, some filled with joy, others with challenges. Embrace them all, for they shape the beautiful mosaic of your existence.",
-            "badge": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
-            "background_img_remote": "",
-            "background_img_local": ""
-          },
-          "entreprise_info": {
-            "entp_title": "tirassam",
-            "entp_sub_title": "sous_tirassam",
-            "entp_description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the   standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
-            "entp_image_remote": [""],
-            "entp_image_local": [""],
-            "entp_reseaux_sociaux": {
-              "facebook": "facebook.com",
-              "website": "website.com",
-              "instegram": "instegram.com"
-            },
-            "entp_phone_number": {
-              "fix": "044998844",
-              "fax": "044998844",
-              "num_1": "0766554455",
-              "num_2": "0543672218"
-            },
-            "entp_maps": {
-              "entp_lng": "2.887444",
-              "entp_lat": "8.999212"
-            },
-            "entp_address": "Lotissement les Castors, 16005 Bir Mourad Rais",
-            "entp_logo_remote": "https://cdn.pixabay.com/photo/2016/06/13/09/57/meeting-1453895_1280.png",
-            "entp_logo_local": "img_basic_pub_7_entp_0.jpg"
-          }
-        }
-      ]
-    },
-
-    {
-      "typeModel": "img_basic",
-      "emplacement": "anc_9",
-      "elementAnc": [
-        {
-          "annonce_info": {
-            "imgs_path_local": ["img_basic_pub_9_0_0.jpg"],
-            "imgs_path_remote": [
-              "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_basic_pub_7_template.jpg?t=2023-10-05T16%3A44%3A30.218Z"
-            ],
-            "title": "first publication",
-            "sub_title": "first sub title of publication",
-            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
-            "link_voir_plus": "link vers la pulicitie ou le site web de l'entreprise s'il exist bien sur",
-            "note": "Life is a journey of moments, some filled with joy, others with challenges. Embrace them all, for they shape the beautiful mosaic of your existence.",
-            "badge": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
-            "background_img_remote": "",
-            "background_img_local": ""
-          },
-          "entreprise_info": {
-            "entp_title": "tirassam",
-            "entp_sub_title": "sous_tirassam",
-            "entp_description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the   standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
-            "entp_image_remote": [""],
-            "entp_image_local": [""],
-            "entp_reseaux_sociaux": {
-              "facebook": "facebook.com",
-              "website": "website.com",
-              "instegram": "instegram.com"
-            },
-            "entp_phone_number": {
-              "fix": "044998844",
-              "fax": "044998844",
-              "num_1": "0766554455",
-              "num_2": "0543672218"
-            },
-            "entp_maps": {
-              "entp_lng": "2.887444",
-              "entp_lat": "8.999212"
-            },
-            "entp_address": "Lotissement les Castors, 16005 Bir Mourad Rais",
-            "entp_logo_remote": "https://imgs.search.brave.com/arVr0UkKZ-lrulGOXt63NSw8fjhuIHTSF-YxKBSbeWY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDc3NzEx/OTMuanBn",
-            "entp_logo_local": "img_basic_pub_9_entp_0.jpg"
-          }
-        }
-      ]
-    },
-
-    {
-      "typeModel": "img_basic",
-      "emplacement": "anc_10",
-      "elementAnc": [
-        {
-          "annonce_info": {
-            "imgs_path_local": ["img_basic_pub_10_0_0.jpg"],
-            "imgs_path_remote": [
-              "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_basic_pub_10_template.jpg?t=2023-10-05T16%3A46%3A02.260Z"
-            ],
-            "title": "first publication",
-            "sub_title": "first sub title of publication",
-            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
-            "link_voir_plus": "link vers la pulicitie ou le site web de l'entreprise s'il exist bien sur",
-            "note": "Life is a journey of moments, some filled with joy, others with challenges. Embrace them all, for they shape the beautiful mosaic of your existence.",
-            "badge": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
-            "background_img_remote": "",
-            "background_img_local": ""
-          },
-          "entreprise_info": {
-            "entp_title": "tirassam",
-            "entp_sub_title": "sous_tirassam",
-            "entp_description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the   standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
-            "entp_image_remote": [""],
-            "entp_image_local": [""],
-            "entp_reseaux_sociaux": {
-              "facebook": "facebook.com",
-              "website": "website.com",
-              "instegram": "instegram.com"
-            },
-            "entp_phone_number": {
-              "fix": "044998844",
-              "fax": "044998844",
-              "num_1": "0766554455",
-              "num_2": "0543672218"
-            },
-            "entp_maps": {
-              "entp_lng": "2.887444",
-              "entp_lat": "8.999212"
-            },
-            "entp_address": "Lotissement les Castors, 16005 Bir Mourad Rais",
-            "entp_logo_remote": "https://cdn.pixabay.com/photo/2016/06/13/09/57/meeting-1453895_1280.png",
-            "entp_logo_local": "img_basic_pub_10_entp_0.jpg"
-          }
-        }
-      ]
-    },
-
-    {
-      "typeModel": "img_basic",
-      "emplacement": "anc_12",
-      "elementAnc": [
-        {
-          "annonce_info": {
-            "imgs_path_local": ["img_basic_pub_12_0_0.jpg"],
-            "imgs_path_remote": [
-              "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_basic_pub_12_template.jpg?t=2023-10-05T16%3A46%3A32.051Z"
-            ],
-            "title": "first publication",
-            "sub_title": "first sub title of publication",
-            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
-            "link_voir_plus": "link vers la pulicitie ou le site web de l'entreprise s'il exist bien sur",
-            "note": "Life is a journey of moments, some filled with joy, others with challenges. Embrace them all, for they shape the beautiful mosaic of your existence.",
-            "badge": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
-            "background_img_remote": "",
-            "background_img_local": ""
-          },
-          "entreprise_info": {
-            "entp_title": "tirassam",
-            "entp_sub_title": "sous_tirassam",
-            "entp_description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the   standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
-            "entp_image_remote": [""],
-            "entp_image_local": [""],
-            "entp_reseaux_sociaux": {
-              "facebook": "facebook.com",
-              "website": "website.com",
-              "instegram": "instegram.com"
-            },
-            "entp_phone_number": {
-              "fix": "044998844",
-              "fax": "044998844",
-              "num_1": "0766554455",
-              "num_2": "0543672218"
-            },
-            "entp_maps": {
-              "entp_lng": "2.887444",
-              "entp_lat": "8.999212"
-            },
-            "entp_address": "Lotissement les Castors, 16005 Bir Mourad Rais",
-            "entp_logo_remote": "https://imgs.search.brave.com/arVr0UkKZ-lrulGOXt63NSw8fjhuIHTSF-YxKBSbeWY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDc3NzEx/OTMuanBn",
-            "entp_logo_local": "img_basic_pub_12_entp_0.jpg"
-          }
-        }
-      ]
-    },
-
-    {
-      "typeModel": "img_basic",
-      "emplacement": "anc_13",
-      "elementAnc": [
-        {
-          "annonce_info": {
-            "imgs_path_local": ["img_basic_pub_13_0_0.jpg"],
-            "imgs_path_remote": [
-              "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_basic_pub_13_template.jpg?t=2023-10-05T16%3A47%3A01.742Z"
-            ],
-            "title": "first publication",
-            "sub_title": "first sub title of publication",
-            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
-            "link_voir_plus": "link vers la pulicitie ou le site web de l'entreprise s'il exist bien sur",
-            "note": "Life is a journey of moments, some filled with joy, others with challenges. Embrace them all, for they shape the beautiful mosaic of your existence.",
-            "badge": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
-            "background_img_remote": "",
-            "background_img_local": ""
-          },
-          "entreprise_info": {
-            "entp_title": "tirassam",
-            "entp_sub_title": "sous_tirassam",
-            "entp_description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the   standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
-            "entp_image_remote": [""],
-            "entp_image_local": [""],
-            "entp_reseaux_sociaux": {
-              "facebook": "facebook.com",
-              "website": "website.com",
-              "instegram": "instegram.com"
-            },
-            "entp_phone_number": {
-              "fix": "044998844",
-              "fax": "044998844",
-              "num_1": "0766554455",
-              "num_2": "0543672218"
-            },
-            "entp_maps": {
-              "entp_lng": "2.887444",
-              "entp_lat": "8.999212"
-            },
-            "entp_address": "Lotissement les Castors, 16005 Bir Mourad Rais",
-            "entp_logo_remote": "https://cdn.pixabay.com/photo/2016/06/13/09/57/meeting-1453895_1280.png",
-            "entp_logo_local": "img_basic_pub_13_entp_0.jpg"
-          }
-        }
-      ]
-    },
-
-    {
-      "typeModel": "img_basic",
-      "emplacement": "anc_15",
-      "elementAnc": [
-        {
-          "annonce_info": {
-            "imgs_path_local": ["img_basic_pub_15_0_0.jpg"],
-            "imgs_path_remote": [
-              "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_basic_pub_15_template.jpg?t=2023-10-05T16%3A47%3A29.965Z"
-            ],
-            "title": "first publication",
-            "sub_title": "first sub title of publication",
-            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
-            "link_voir_plus": "link vers la pulicitie ou le site web de l'entreprise s'il exist bien sur",
-            "note": "Life is a journey of moments, some filled with joy, others with challenges. Embrace them all, for they shape the beautiful mosaic of your existence.",
-            "badge": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
-            "background_img_remote": "",
-            "background_img_local": ""
-          },
-          "entreprise_info": {
-            "entp_title": "tirassam",
-            "entp_sub_title": "sous_tirassam",
-            "entp_description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the   standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
-            "entp_image_remote": [""],
-            "entp_image_local": [""],
-            "entp_reseaux_sociaux": {
-              "facebook": "facebook.com",
-              "website": "website.com",
-              "instegram": "instegram.com"
-            },
-            "entp_phone_number": {
-              "fix": "044998844",
-              "fax": "044998844",
-              "num_1": "0766554455",
-              "num_2": "0543672218"
-            },
-            "entp_maps": {
-              "entp_lng": "2.887444",
-              "entp_lat": "8.999212"
-            },
-            "entp_address": "Lotissement les Castors, 16005 Bir Mourad Rais",
-            "entp_logo_remote": "https://imgs.search.brave.com/arVr0UkKZ-lrulGOXt63NSw8fjhuIHTSF-YxKBSbeWY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDc3NzEx/OTMuanBn",
-            "entp_logo_local": "img_basic_pub_15_entp_0.jpg"
-          }
-        }
-      ]
-    },
-    {
-      "typeModel": "img_basic",
-      "emplacement": "anc_16",
-      "elementAnc": [
-        {
-          "annonce_info": {
-            "imgs_path_local": ["img_basic_pub_16_0_0.jpg"],
-            "imgs_path_remote": [
-              "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_basic_pub_16_template.jpg?t=2023-10-05T16%3A48%3A02.090Z"
-            ],
-            "title": "first publication",
-            "sub_title": "first sub title of publication",
-            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
-            "link_voir_plus": "link vers la pulicitie ou le site web de l'entreprise s'il exist bien sur",
-            "note": "Life is a journey of moments, some filled with joy, others with challenges. Embrace them all, for they shape the beautiful mosaic of your existence.",
-            "badge": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
-            "background_img_remote": "",
-            "background_img_local": ""
-          },
-          "entreprise_info": {
-            "entp_title": "tirassam",
-            "entp_sub_title": "sous_tirassam",
-            "entp_description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the   standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
-            "entp_image_remote": [""],
-            "entp_image_local": [""],
-            "entp_reseaux_sociaux": {
-              "facebook": "facebook.com",
-              "website": "website.com",
-              "instegram": "instegram.com"
-            },
-            "entp_phone_number": {
-              "fix": "044998844",
-              "fax": "044998844",
-              "num_1": "0766554455",
-              "num_2": "0543672218"
-            },
-            "entp_maps": {
-              "entp_lng": "2.887444",
-              "entp_lat": "8.999212"
-            },
-            "entp_address": "Lotissement les Castors, 16005 Bir Mourad Rais",
-            "entp_logo_remote": "https://imgs.search.brave.com/arVr0UkKZ-lrulGOXt63NSw8fjhuIHTSF-YxKBSbeWY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDc3NzEx/OTMuanBn",
-            "entp_logo_local": "img_basic_pub_16_entp_0.jpg"
-          }
-        }
-      ]
-    },
-
-    {
-      "typeModel": "img_basic",
-      "emplacement": "anc_17",
-      "elementAnc": [
-        {
-          "annonce_info": {
-            "imgs_path_local": ["img_basic_pub_17_0_0.jpg"],
-            "imgs_path_remote": [
-              "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_basic_pub_17_template.jpg?t=2023-10-05T16%3A48%3A24.314Z"
-            ],
-            "title": "first publication",
-            "sub_title": "first sub title of publication",
-            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
-            "link_voir_plus": "link vers la pulicitie ou le site web de l'entreprise s'il exist bien sur",
-            "note": "Life is a journey of moments, some filled with joy, others with challenges. Embrace them all, for they shape the beautiful mosaic of your existence.",
-            "badge": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
-            "background_img_remote": "",
-            "background_img_local": ""
-          },
-          "entreprise_info": {
-            "entp_title": "tirassam",
-            "entp_sub_title": "sous_tirassam",
-            "entp_description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the   standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
-            "entp_image_remote": [""],
-            "entp_image_local": [""],
-            "entp_reseaux_sociaux": {
-              "facebook": "facebook.com",
-              "website": "website.com",
-              "instegram": "instegram.com"
-            },
-            "entp_phone_number": {
-              "fix": "044998844",
-              "fax": "044998844",
-              "num_1": "0766554455",
-              "num_2": "0543672218"
-            },
-            "entp_maps": {
-              "entp_lng": "2.887444",
-              "entp_lat": "8.999212"
-            },
-            "entp_address": "Lotissement les Castors, 16005 Bir Mourad Rais",
-            "entp_logo_remote": "https://cdn.pixabay.com/photo/2016/06/13/09/57/meeting-1453895_1280.png",
-            "entp_logo_local": "img_basic_pub_17_entp_0.jpg"
-          }
-        }
-      ]
-    },
-
-    {
-      "typeModel": "img_basic",
-      "emplacement": "anc_18",
-      "elementAnc": [
-        {
-          "annonce_info": {
-            "imgs_path_local": ["img_basic_pub_18_0_0.jpg"],
-            "imgs_path_remote": [
-              "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_basic_pub_18_template.jpg?t=2023-10-05T16%3A48%3A36.396Z"
-            ],
-            "title": "first publication",
-            "sub_title": "first sub title of publication",
-            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
-            "link_voir_plus": "link vers la pulicitie ou le site web de l'entreprise s'il exist bien sur",
-            "note": "Life is a journey of moments, some filled with joy, others with challenges. Embrace them all, for they shape the beautiful mosaic of your existence.",
-            "badge": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
-            "background_img_remote": "",
-            "background_img_local": ""
-          },
-          "entreprise_info": {
-            "entp_title": "tirassam",
-            "entp_sub_title": "sous_tirassam",
-            "entp_description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the   standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
-            "entp_image_remote": [""],
-            "entp_image_local": [""],
-            "entp_reseaux_sociaux": {
-              "facebook": "facebook.com",
-              "website": "website.com",
-              "instegram": "instegram.com"
-            },
-            "entp_phone_number": {
-              "fix": "044998844",
-              "fax": "044998844",
-              "num_1": "0766554455",
-              "num_2": "0543672218"
-            },
-            "entp_maps": {
-              "entp_lng": "2.887444",
-              "entp_lat": "8.999212"
-            },
-            "entp_address": "Lotissement les Castors, 16005 Bir Mourad Rais",
-            "entp_logo_remote": "https://cdn.pixabay.com/photo/2016/06/13/09/57/meeting-1453895_1280.png",
-            "entp_logo_local": "img_basic_pub_18_entp_0.jpg"
-          }
-        }
-      ]
-    },
-
-    {
-      "typeModel": "img_basic",
-      "emplacement": "anc_19",
-      "elementAnc": [
-        {
-          "annonce_info": {
-            "imgs_path_local": ["img_basic_pub_19_0_0.jpg"],
-            "imgs_path_remote": [
-              "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_basic_pub_19_template.jpg?t=2023-10-05T16%3A48%3A36.396Z"
-            ],
-            "title": "first publication",
-            "sub_title": "first sub title of publication",
-            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
-            "link_voir_plus": "link vers la pulicitie ou le site web de l'entreprise s'il exist bien sur",
-            "note": "Life is a journey of moments, some filled with joy, others with challenges. Embrace them all, for they shape the beautiful mosaic of your existence.",
-            "badge": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
-            "background_img_remote": "",
-            "background_img_local": ""
-          },
-          "entreprise_info": {
-            "entp_title": "tirassam",
-            "entp_sub_title": "sous_tirassam",
-            "entp_description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the   standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
-            "entp_image_remote": [""],
-            "entp_image_local": [""],
-            "entp_reseaux_sociaux": {
-              "facebook": "facebook.com",
-              "website": "website.com",
-              "instegram": "instegram.com"
-            },
-            "entp_phone_number": {
-              "fix": "044998844",
-              "fax": "044998844",
-              "num_1": "0766554455",
-              "num_2": "0543672218"
-            },
-            "entp_maps": {
-              "entp_lng": "2.887444",
-              "entp_lat": "8.999212"
-            },
-            "entp_address": "Lotissement les Castors, 16005 Bir Mourad Rais",
-            "entp_logo_remote": "https://cdn.pixabay.com/photo/2016/06/13/09/57/meeting-1453895_1280.png",
-            "entp_logo_local": "img_basic_pub_19_entp_0.jpg"
-          }
-        }
-      ]
-    },
-
-    {
-      "typeModel": "img_product",
-      "emplacement": "anc_3",
-      "elementAnc": [
-        {
-          "annonce_info": {
-            "imgs_path_local": ["img_product_pub_3_0_0.jpg"],
-            "imgs_path_remote": [
-              "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_product_pub_3_template.png?t=2023-10-05T16%3A51%3A40.005Z"
-            ],
-            "title": "first publication",
-            "sub_title": "first sub title of publication",
-            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
-            "link_voir_plus": "link vers la pulicitie ou le site web de l'entreprise s'il exist bien sur",
-            "button_text": "command",
-            "note": "Life is a journey of moments, some filled with joy, others with challenges. Embrace them all, for they shape the beautiful mosaic of your existence.",
-            "badge": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
-            "background_img_remote": "",
-            "background_img_local": ""
-          },
-          "entreprise_info": {
-            "entp_title": "tirassam",
-            "entp_sub_title": "sous_tirassam",
-            "entp_description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the   standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
-            "entp_image_remote": [""],
-            "entp_image_local": [""],
-            "entp_reseaux_sociaux": {
-              "facebook": "facebook.com",
-              "website": "website.com",
-              "instegram": "instegram.com"
-            },
-            "entp_phone_number": {
-              "fix": "044998844",
-              "fax": "044998844",
-              "num_1": "0766554455",
-              "num_2": "0543672218"
-            },
-            "entp_maps": {
-              "entp_lng": "2.887444",
-              "entp_lat": "8.999212"
-            },
-            "entp_address": "Lotissement les Castors, 16005 Bir Mourad Rais",
-            "entp_logo_remote": "https://imgs.search.brave.com/arVr0UkKZ-lrulGOXt63NSw8fjhuIHTSF-YxKBSbeWY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDc3NzEx/OTMuanBn",
-            "entp_logo_local": "img_product_pub_3_entp_0.jpg"
-          }
-        }
-      ]
-    },
-
-    {
-      "typeModel": "img_product",
-      "emplacement": "anc_4",
-      "elementAnc": [
-        {
-          "annonce_info": {
-            "imgs_path_local": ["img_product_pub_4_0_0.jpg"],
-            "imgs_path_remote": [
-              "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_product_pub_4_template.png?t=2023-10-05T16%3A51%3A40.005Z"
-            ],
-            "title": "first publication",
-            "sub_title": "first sub title of publication",
-            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
-            "link_voir_plus": "link vers la pulicitie ou le site web de l'entreprise s'il exist bien sur",
-            "button_text": "command",
-            "note": "Life is a journey of moments, some filled with joy, others with challenges. Embrace them all, for they shape the beautiful mosaic of your existence.",
-            "badge": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
-            "background_img_remote": "",
-            "background_img_local": ""
-          },
-          "entreprise_info": {
-            "entp_title": "tirassam",
-            "entp_sub_title": "sous_tirassam",
-            "entp_description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the   standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
-            "entp_image_remote": [""],
-            "entp_image_local": [""],
-            "entp_reseaux_sociaux": {
-              "facebook": "facebook.com",
-              "website": "website.com",
-              "instegram": "instegram.com"
-            },
-            "entp_phone_number": {
-              "fix": "044998844",
-              "fax": "044998844",
-              "num_1": "0766554455",
-              "num_2": "0543672218"
-            },
-            "entp_maps": {
-              "entp_lng": "2.887444",
-              "entp_lat": "8.999212"
-            },
-            "entp_address": "Lotissement les Castors, 16005 Bir Mourad Rais",
-            "entp_logo_remote": "https://cdn.pixabay.com/photo/2016/06/13/09/57/meeting-1453895_1280.png",
-            "entp_logo_local": "img_product_pub_4_entp_0.jpg"
-          }
-        }
-      ]
-    },
-
-    {
       "typeModel": "img_slides",
       "emplacement": "anc_1",
       "elementAnc": [
         {
           "annonce_info": {
-            "imgs_path_local": [
-              "img_slides_pub_1_0_0.jpg",
-              "img_slides_pub_1_0_1.jpg",
-              "img_slides_pub_1_0_2.jpg",
-              "img_slides_pub_1_0_3.jpg",
-              "img_slides_pub_1_0_4.jpg"
-            ],
+            "imgs_path_local": ["img_slides_pub_1_0_0.jpg"],
             "imgs_path_remote": [
-              "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_sliders_pub_1_template.jpg",
-              "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_sliders_pub_1_templatev2.jpg",
-              "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_sliders_pub_1_templatev3.jpg",
-              "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_sliders_pub_1_templatev4.jpg",
-              "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_sliders_pub_1_templatev5.jpg"
+              "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_sliders_pub_1_template.jpg"
             ],
             "title": "first publication",
             "sub_title": "first sub title of publication",
@@ -655,6 +19,51 @@
             "link_voir_plus": "link vers la pulicitie ou le site web de l'entreprise s'il exist bien sur",
             "note": "Life is a journey of moments, some filled with joy, others with challenges. Embrace them all, for they shape the beautiful mosaic of your existence.",
             "badge": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+            "button_text": "",
+            "background_img_remote": "",
+            "background_img_local": ""
+          },
+          "entreprise_info": {
+            "entp_title": "tirassam",
+            "entp_sub_title": "sous_tirassam",
+            "entp_description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the   standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+            "entp_image_remote": [""],
+            "entp_image_local": [""],
+
+            "entp_reseaux_sociaux": {
+              "facebook": "facebook.com",
+              "website": "website.com",
+              "instegram": "instegram.com"
+            },
+            "entp_phone_number": {
+              "fix": "044998844",
+              "fax": "044998844",
+              "num_1": "0766554455",
+              "num_2": "0543672218"
+            },
+            "entp_maps": {
+              "entp_lng": "2.887444",
+              "entp_lat": "8.999212"
+            },
+            "entp_address": "Lotissement les Castors, 16005 Bir Mourad Rais",
+            "entp_logo_remote": "https://imgs.search.brave.com/arVr0UkKZ-lrulGOXt63NSw8fjhuIHTSF-YxKBSbeWY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDc3NzEx/OTMuanBn",
+            "entp_logo_local": "img_slides_pub_1_entp_0"
+          }
+        },
+
+        {
+          "annonce_info": {
+            "imgs_path_local": ["img_slides_pub_1_0_1.jpg"],
+            "imgs_path_remote": [
+              "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_sliders_pub_1_templatev2.jpg"
+            ],
+            "title": "first publication",
+            "sub_title": "first sub title of publication",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+            "link_voir_plus": "link vers la pulicitie ou le site web de l'entreprise s'il exist bien sur",
+            "note": "Life is a journey of moments, some filled with joy, others with challenges. Embrace them all, for they shape the beautiful mosaic of your existence.",
+            "badge": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+            "button_text": "",
             "background_img_remote": "",
             "background_img_local": ""
           },
@@ -694,19 +103,9 @@
       "elementAnc": [
         {
           "annonce_info": {
-            "imgs_path_local": [
-              "img_slides_pub_6_1_0.jpg",
-              "img_slides_pub_6_1_1.jpg",
-              "img_slides_pub_6_1_2.jpg",
-              "img_slides_pub_6_1_3.jpg",
-              "img_slides_pub_6_1_4.jpg"
-            ],
+            "imgs_path_local": ["img_slides_pub_6_1_0.jpg"],
             "imgs_path_remote": [
-              "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_sliders_pub_6_template.jpg",
-              "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_sliders_pub_6_templatev2.jpg",
-              "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_sliders_pub_6_templatev3.jpg",
-              "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_sliders_pub_6_templatev4.jpg",
-              "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_sliders_pub_6_templatev5.jpg"
+              "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_sliders_pub_6_template.jpg"
             ],
             "title": "first publication",
             "sub_title": "first sub title of publication",
@@ -714,6 +113,93 @@
             "link_voir_plus": "link vers la pulicitie ou le site web de l'entreprise s'il exist bien sur",
             "note": "Life is a journey of moments, some filled with joy, others with challenges. Embrace them all, for they shape the beautiful mosaic of your existence.",
             "badge": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+            "button_text": "",
+            "background_img_remote": "",
+            "background_img_local": ""
+          },
+          "entreprise_info": {
+            "entp_title": "tirassam",
+            "entp_sub_title": "sous_tirassam",
+            "entp_description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the   standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+            "entp_image_remote": [""],
+            "entp_image_local": [""],
+
+            "entp_reseaux_sociaux": {
+              "facebook": "facebook.com",
+              "website": "website.com",
+              "instegram": "instegram.com"
+            },
+            "entp_phone_number": {
+              "fix": "044998844",
+              "fax": "044998844",
+              "num_1": "0766554455",
+              "num_2": "0543672218"
+            },
+            "entp_maps": {
+              "entp_lng": "2.887444",
+              "entp_lat": "8.999212"
+            },
+            "entp_address": "Lotissement les Castors, 16005 Bir Mourad Rais",
+            "entp_logo_remote": "https://imgs.search.brave.com/arVr0UkKZ-lrulGOXt63NSw8fjhuIHTSF-YxKBSbeWY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDc3NzEx/OTMuanBn",
+            "entp_logo_local": "img_slides_pub_6_entp_1"
+          }
+        },
+        {
+          "annonce_info": {
+            "imgs_path_local": ["img_slides_pub_6_1_1.jpg"],
+            "imgs_path_remote": [
+              "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_sliders_pub_6_templatev2.jpg"
+            ],
+            "title": "first publication",
+            "sub_title": "first sub title of publication",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+            "link_voir_plus": "link vers la pulicitie ou le site web de l'entreprise s'il exist bien sur",
+            "note": "Life is a journey of moments, some filled with joy, others with challenges. Embrace them all, for they shape the beautiful mosaic of your existence.",
+            "badge": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+            "button_text": "",
+            "background_img_remote": "",
+            "background_img_local": ""
+          },
+          "entreprise_info": {
+            "entp_title": "tirassam",
+            "entp_sub_title": "sous_tirassam",
+            "entp_description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the   standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+            "entp_image_remote": [""],
+            "entp_image_local": [""],
+
+            "entp_reseaux_sociaux": {
+              "facebook": "facebook.com",
+              "website": "website.com",
+              "instegram": "instegram.com"
+            },
+            "entp_phone_number": {
+              "fix": "044998844",
+              "fax": "044998844",
+              "num_1": "0766554455",
+              "num_2": "0543672218"
+            },
+            "entp_maps": {
+              "entp_lng": "2.887444",
+              "entp_lat": "8.999212"
+            },
+            "entp_address": "Lotissement les Castors, 16005 Bir Mourad Rais",
+            "entp_logo_remote": "https://imgs.search.brave.com/arVr0UkKZ-lrulGOXt63NSw8fjhuIHTSF-YxKBSbeWY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDc3NzEx/OTMuanBn",
+            "entp_logo_local": "img_slides_pub_6_entp_1"
+          }
+        },
+        {
+          "annonce_info": {
+            "imgs_path_local": ["img_slides_pub_6_1_2.jpg"],
+            "imgs_path_remote": [
+              "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_sliders_pub_6_templatev3.jpg"
+            ],
+            "title": "first publication",
+            "sub_title": "first sub title of publication",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+            "link_voir_plus": "link vers la pulicitie ou le site web de l'entreprise s'il exist bien sur",
+            "note": "Life is a journey of moments, some filled with joy, others with challenges. Embrace them all, for they shape the beautiful mosaic of your existence.",
+            "badge": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+            "button_text": "",
             "background_img_remote": "",
             "background_img_local": ""
           },
@@ -753,19 +239,9 @@
       "elementAnc": [
         {
           "annonce_info": {
-            "imgs_path_local": [
-              "img_slides_pub_8_2_0.jpg",
-              "img_slides_pub_8_2_1.jpg",
-              "img_slides_pub_8_2_2.jpg",
-              "img_slides_pub_8_2_3.jpg",
-              "img_slides_pub_8_2_4.jpg"
-            ],
+            "imgs_path_local": ["img_slides_pub_8_2_0.jpg"],
             "imgs_path_remote": [
-              "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_sliders_pub_8_template.jpg",
-              "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_sliders_pub_8_templatev2.jpg",
-              "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_sliders_pub_8_templatev3.jpg",
-              "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_sliders_pub_8_templatev4.jpg",
-              "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_sliders_pub_8_templatev5.jpg"
+              "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_sliders_pub_8_template.jpg"
             ],
             "title": "first publication",
             "sub_title": "first sub title of publication",
@@ -773,6 +249,93 @@
             "link_voir_plus": "link vers la pulicitie ou le site web de l'entreprise s'il exist bien sur",
             "note": "Life is a journey of moments, some filled with joy, others with challenges. Embrace them all, for they shape the beautiful mosaic of your existence.",
             "badge": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+            "button_text": "",
+            "background_img_remote": "",
+            "background_img_local": ""
+          },
+          "entreprise_info": {
+            "entp_title": "tirassam",
+            "entp_sub_title": "sous_tirassam",
+            "entp_description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the   standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+            "entp_image_remote": [""],
+            "entp_image_local": [""],
+
+            "entp_reseaux_sociaux": {
+              "facebook": "facebook.com",
+              "website": "website.com",
+              "instegram": "instegram.com"
+            },
+            "entp_phone_number": {
+              "fix": "044998844",
+              "fax": "044998844",
+              "num_1": "0766554455",
+              "num_2": "0543672218"
+            },
+            "entp_maps": {
+              "entp_lng": "2.887444",
+              "entp_lat": "8.999212"
+            },
+            "entp_address": "Lotissement les Castors, 16005 Bir Mourad Rais",
+            "entp_logo_remote": "https://imgs.search.brave.com/arVr0UkKZ-lrulGOXt63NSw8fjhuIHTSF-YxKBSbeWY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDc3NzEx/OTMuanBn",
+            "entp_logo_local": "img_slides_pub_8_entp_2"
+          }
+        },
+        {
+          "annonce_info": {
+            "imgs_path_local": ["img_slides_pub_8_2_1.jpg"],
+            "imgs_path_remote": [
+              "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_sliders_pub_8_templatev2.jpg"
+            ],
+            "title": "first publication",
+            "sub_title": "first sub title of publication",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+            "link_voir_plus": "link vers la pulicitie ou le site web de l'entreprise s'il exist bien sur",
+            "note": "Life is a journey of moments, some filled with joy, others with challenges. Embrace them all, for they shape the beautiful mosaic of your existence.",
+            "badge": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+            "button_text": "",
+            "background_img_remote": "",
+            "background_img_local": ""
+          },
+          "entreprise_info": {
+            "entp_title": "tirassam",
+            "entp_sub_title": "sous_tirassam",
+            "entp_description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the   standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+            "entp_image_remote": [""],
+            "entp_image_local": [""],
+
+            "entp_reseaux_sociaux": {
+              "facebook": "facebook.com",
+              "website": "website.com",
+              "instegram": "instegram.com"
+            },
+            "entp_phone_number": {
+              "fix": "044998844",
+              "fax": "044998844",
+              "num_1": "0766554455",
+              "num_2": "0543672218"
+            },
+            "entp_maps": {
+              "entp_lng": "2.887444",
+              "entp_lat": "8.999212"
+            },
+            "entp_address": "Lotissement les Castors, 16005 Bir Mourad Rais",
+            "entp_logo_remote": "https://imgs.search.brave.com/arVr0UkKZ-lrulGOXt63NSw8fjhuIHTSF-YxKBSbeWY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDc3NzEx/OTMuanBn",
+            "entp_logo_local": "img_slides_pub_8_entp_2"
+          }
+        },
+        {
+          "annonce_info": {
+            "imgs_path_local": ["img_slides_pub_8_2_2.jpg"],
+            "imgs_path_remote": [
+              "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_sliders_pub_8_templatev3.jpg"
+            ],
+            "title": "first publication",
+            "sub_title": "first sub title of publication",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+            "link_voir_plus": "link vers la pulicitie ou le site web de l'entreprise s'il exist bien sur",
+            "note": "Life is a journey of moments, some filled with joy, others with challenges. Embrace them all, for they shape the beautiful mosaic of your existence.",
+            "badge": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+            "button_text": "",
             "background_img_remote": "",
             "background_img_local": ""
           },
@@ -808,23 +371,13 @@
 
     {
       "typeModel": "img_slides",
-      "emplacement": "anc_11",
+      "emplacement": "anc_12",
       "elementAnc": [
         {
           "annonce_info": {
-            "imgs_path_local": [
-              "img_slides_pub_11_3_0.jpg",
-              "img_slides_pub_11_3_1.jpg",
-              "img_slides_pub_11_3_2.jpg",
-              "img_slides_pub_11_3_3.jpg",
-              "img_slides_pub_11_3_4.jpg"
-            ],
+            "imgs_path_local": ["img_slides_pub_12_3_0.jpg"],
             "imgs_path_remote": [
-              "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_sliders_pub_11_template.jpg",
-              "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_sliders_pub_11_templatev2.jpg",
-              "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_sliders_pub_11_templatev3.jpg",
-              "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_sliders_pub_11_templatev4.jpg",
-              "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_sliders_pub_11_templatev5.jpg"
+              "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_sliders_pub_12_templatev3.jpg"
             ],
             "title": "first publication",
             "sub_title": "first sub title of publication",
@@ -832,6 +385,7 @@
             "link_voir_plus": "link vers la pulicitie ou le site web de l'entreprise s'il exist bien sur",
             "note": "Life is a journey of moments, some filled with joy, others with challenges. Embrace them all, for they shape the beautiful mosaic of your existence.",
             "badge": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+            "button_text": "",
             "background_img_remote": "",
             "background_img_local": ""
           },
@@ -859,7 +413,93 @@
             },
             "entp_address": "Lotissement les Castors, 16005 Bir Mourad Rais",
             "entp_logo_remote": "https://imgs.search.brave.com/arVr0UkKZ-lrulGOXt63NSw8fjhuIHTSF-YxKBSbeWY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDc3NzEx/OTMuanBn",
-            "entp_logo_local": "img_slides_pub_11_entp_3"
+            "entp_logo_local": "img_slides_pub_12_entp_3"
+          }
+        },
+        {
+          "annonce_info": {
+            "imgs_path_local": ["img_slides_pub_12_3_1.jpg"],
+            "imgs_path_remote": [
+              "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_sliders_pub_12_templatev4.jpg"
+            ],
+            "title": "first publication",
+            "sub_title": "first sub title of publication",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+            "link_voir_plus": "link vers la pulicitie ou le site web de l'entreprise s'il exist bien sur",
+            "note": "Life is a journey of moments, some filled with joy, others with challenges. Embrace them all, for they shape the beautiful mosaic of your existence.",
+            "badge": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+            "button_text": "",
+            "background_img_remote": "",
+            "background_img_local": ""
+          },
+          "entreprise_info": {
+            "entp_title": "tirassam",
+            "entp_sub_title": "sous_tirassam",
+            "entp_description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the   standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+            "entp_image_remote": [""],
+            "entp_image_local": [""],
+
+            "entp_reseaux_sociaux": {
+              "facebook": "facebook.com",
+              "website": "website.com",
+              "instegram": "instegram.com"
+            },
+            "entp_phone_number": {
+              "fix": "044998844",
+              "fax": "044998844",
+              "num_1": "0766554455",
+              "num_2": "0543672218"
+            },
+            "entp_maps": {
+              "entp_lng": "2.887444",
+              "entp_lat": "8.999212"
+            },
+            "entp_address": "Lotissement les Castors, 16005 Bir Mourad Rais",
+            "entp_logo_remote": "https://imgs.search.brave.com/arVr0UkKZ-lrulGOXt63NSw8fjhuIHTSF-YxKBSbeWY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDc3NzEx/OTMuanBn",
+            "entp_logo_local": "img_slides_pub_12_entp_3"
+          }
+        },
+        {
+          "annonce_info": {
+            "imgs_path_local": ["img_slides_pub_12_3_2.jpg"],
+            "imgs_path_remote": [
+              "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_sliders_pub_12_templatev5.jpg"
+            ],
+            "title": "first publication",
+            "sub_title": "first sub title of publication",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+            "link_voir_plus": "link vers la pulicitie ou le site web de l'entreprise s'il exist bien sur",
+            "note": "Life is a journey of moments, some filled with joy, others with challenges. Embrace them all, for they shape the beautiful mosaic of your existence.",
+            "badge": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+            "button_text": "",
+            "background_img_remote": "",
+            "background_img_local": ""
+          },
+          "entreprise_info": {
+            "entp_title": "tirassam",
+            "entp_sub_title": "sous_tirassam",
+            "entp_description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the   standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+            "entp_image_remote": [""],
+            "entp_image_local": [""],
+
+            "entp_reseaux_sociaux": {
+              "facebook": "facebook.com",
+              "website": "website.com",
+              "instegram": "instegram.com"
+            },
+            "entp_phone_number": {
+              "fix": "044998844",
+              "fax": "044998844",
+              "num_1": "0766554455",
+              "num_2": "0543672218"
+            },
+            "entp_maps": {
+              "entp_lng": "2.887444",
+              "entp_lat": "8.999212"
+            },
+            "entp_address": "Lotissement les Castors, 16005 Bir Mourad Rais",
+            "entp_logo_remote": "https://imgs.search.brave.com/arVr0UkKZ-lrulGOXt63NSw8fjhuIHTSF-YxKBSbeWY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDc3NzEx/OTMuanBn",
+            "entp_logo_local": "img_slides_pub_12_entp_3"
           }
         }
       ]
@@ -871,18 +511,94 @@
       "elementAnc": [
         {
           "annonce_info": {
-            "imgs_path_local": [
-              "img_slides_pub_14_4_0.jpg",
-              "img_slides_pub_14_4_1.jpg",
-              "img_slides_pub_14_4_2.jpg",
-              "img_slides_pub_14_4_3.jpg",
-              "img_slides_pub_14_4_4.jpg"
-            ],
+            "imgs_path_local": ["img_slides_pub_14_4_0.jpg"],
             "imgs_path_remote": [
-              "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_sliders_pub_14_template.jpg",
-              "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_sliders_pub_14_templatev2.jpg",
-              "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_sliders_pub_14_templatev3.jpg",
-              "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_sliders_pub_14_templatev4.jpg",
+              "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_sliders_pub_14_templatev3.jpg"
+            ],
+            "title": "first publication",
+            "sub_title": "first sub title of publication",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+            "link_voir_plus": "link vers la pulicitie ou le site web de l'entreprise s'il exist bien sur",
+            "note": "Life is a journey of moments, some filled with joy, others with challenges. Embrace them all, for they shape the beautiful mosaic of your existence.",
+            "badge": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+            "button_text": "",
+            "background_img_remote": "",
+            "background_img_local": ""
+          },
+          "entreprise_info": {
+            "entp_title": "tirassam",
+            "entp_sub_title": "sous_tirassam",
+            "entp_description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the   standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+            "entp_image_remote": [""],
+            "entp_image_local": [""],
+
+            "entp_reseaux_sociaux": {
+              "facebook": "facebook.com",
+              "website": "website.com",
+              "instegram": "instegram.com"
+            },
+            "entp_phone_number": {
+              "fix": "044998844",
+              "fax": "044998844",
+              "num_1": "0766554455",
+              "num_2": "0543672218"
+            },
+            "entp_maps": {
+              "entp_lng": "2.887444",
+              "entp_lat": "8.999212"
+            },
+            "entp_address": "Lotissement les Castors, 16005 Bir Mourad Rais",
+            "entp_logo_remote": "https://imgs.search.brave.com/arVr0UkKZ-lrulGOXt63NSw8fjhuIHTSF-YxKBSbeWY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDc3NzEx/OTMuanBn",
+            "entp_logo_local": "img_slides_pub_14_entp_4"
+          }
+        },
+        {
+          "annonce_info": {
+            "imgs_path_local": ["img_slides_pub_14_4_1.jpg"],
+            "imgs_path_remote": [
+              "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_sliders_pub_14_templatev4.jpg"
+            ],
+            "title": "first publication",
+            "sub_title": "first sub title of publication",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+            "link_voir_plus": "link vers la pulicitie ou le site web de l'entreprise s'il exist bien sur",
+            "note": "Life is a journey of moments, some filled with joy, others with challenges. Embrace them all, for they shape the beautiful mosaic of your existence.",
+            "badge": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+            "button_text": "",
+            "background_img_remote": "",
+            "background_img_local": ""
+          },
+          "entreprise_info": {
+            "entp_title": "tirassam",
+            "entp_sub_title": "sous_tirassam",
+            "entp_description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the   standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+            "entp_image_remote": [""],
+            "entp_image_local": [""],
+
+            "entp_reseaux_sociaux": {
+              "facebook": "facebook.com",
+              "website": "website.com",
+              "instegram": "instegram.com"
+            },
+            "entp_phone_number": {
+              "fix": "044998844",
+              "fax": "044998844",
+              "num_1": "0766554455",
+              "num_2": "0543672218"
+            },
+            "entp_maps": {
+              "entp_lng": "2.887444",
+              "entp_lat": "8.999212"
+            },
+            "entp_address": "Lotissement les Castors, 16005 Bir Mourad Rais",
+            "entp_logo_remote": "https://imgs.search.brave.com/arVr0UkKZ-lrulGOXt63NSw8fjhuIHTSF-YxKBSbeWY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDc3NzEx/OTMuanBn",
+            "entp_logo_local": "img_slides_pub_14_entp_4"
+          }
+        },
+        {
+          "annonce_info": {
+            "imgs_path_local": ["img_slides_pub_14_4_2.jpg"],
+            "imgs_path_remote": [
               "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_sliders_pub_14_templatev5.jpg"
             ],
             "title": "first publication",
@@ -891,6 +607,7 @@
             "link_voir_plus": "link vers la pulicitie ou le site web de l'entreprise s'il exist bien sur",
             "note": "Life is a journey of moments, some filled with joy, others with challenges. Embrace them all, for they shape the beautiful mosaic of your existence.",
             "badge": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+            "button_text": "",
             "background_img_remote": "",
             "background_img_local": ""
           },
@@ -923,22 +640,796 @@
         }
       ]
     },
-
     {
-      "typeModel": "img_hr",
-      "emplacement": "anc_2",
+      "typeModel": "img_slides",
+      "emplacement": "anc_20",
       "elementAnc": [
         {
           "annonce_info": {
-            "imgs_path_local": ["img_hr_pub_2_0.jpg"],
+            "imgs_path_local": ["img_slides_pub_20_5_0.jpg"],
             "imgs_path_remote": [
-              "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_hr_pub_2_template.jpg?t=2023-10-05T16%3A54%3A03.575Z"
+              "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_sliders_pub_20_template.jpg"
+            ],
+            "title": "first publication",
+            "sub_title": "first sub title of publication",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+            "link_voir_plus": "link vers la pulicitie ou le site web de l'entreprise s'il exist bien sur",
+            "note": "Life is a journey of moments, some filled with joy, others with challenges. Embrace them all, for they shape the beautiful mosaic of your existence.",
+            "badge": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+            "button_text": "",
+            "background_img_remote": "",
+            "background_img_local": ""
+          },
+          "entreprise_info": {
+            "entp_title": "tirassam",
+            "entp_sub_title": "sous_tirassam",
+            "entp_description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the   standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+            "entp_image_remote": [""],
+            "entp_image_local": [""],
+
+            "entp_reseaux_sociaux": {
+              "facebook": "facebook.com",
+              "website": "website.com",
+              "instegram": "instegram.com"
+            },
+            "entp_phone_number": {
+              "fix": "044998844",
+              "fax": "044998844",
+              "num_1": "0766554455",
+              "num_2": "0543672218"
+            },
+            "entp_maps": {
+              "entp_lng": "2.887444",
+              "entp_lat": "8.999212"
+            },
+            "entp_address": "Lotissement les Castors, 16005 Bir Mourad Rais",
+            "entp_logo_remote": "https://imgs.search.brave.com/arVr0UkKZ-lrulGOXt63NSw8fjhuIHTSF-YxKBSbeWY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDc3NzEx/OTMuanBn",
+            "entp_logo_local": "img_slides_pub_20_entp_5"
+          }
+        },
+        {
+          "annonce_info": {
+            "imgs_path_local": ["img_slides_pub_20_5_1.jpg"],
+            "imgs_path_remote": [
+              "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_sliders_pub_20_templatev4.jpg"
+            ],
+            "title": "first publication",
+            "sub_title": "first sub title of publication",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+            "link_voir_plus": "link vers la pulicitie ou le site web de l'entreprise s'il exist bien sur",
+            "note": "Life is a journey of moments, some filled with joy, others with challenges. Embrace them all, for they shape the beautiful mosaic of your existence.",
+            "badge": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+            "button_text": "",
+            "background_img_remote": "",
+            "background_img_local": ""
+          },
+          "entreprise_info": {
+            "entp_title": "tirassam",
+            "entp_sub_title": "sous_tirassam",
+            "entp_description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the   standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+            "entp_image_remote": [""],
+            "entp_image_local": [""],
+
+            "entp_reseaux_sociaux": {
+              "facebook": "facebook.com",
+              "website": "website.com",
+              "instegram": "instegram.com"
+            },
+            "entp_phone_number": {
+              "fix": "044998844",
+              "fax": "044998844",
+              "num_1": "0766554455",
+              "num_2": "0543672218"
+            },
+            "entp_maps": {
+              "entp_lng": "2.887444",
+              "entp_lat": "8.999212"
+            },
+            "entp_address": "Lotissement les Castors, 16005 Bir Mourad Rais",
+            "entp_logo_remote": "https://imgs.search.brave.com/arVr0UkKZ-lrulGOXt63NSw8fjhuIHTSF-YxKBSbeWY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDc3NzEx/OTMuanBn",
+            "entp_logo_local": "img_slides_pub_20_entp_5"
+          }
+        },
+        {
+          "annonce_info": {
+            "imgs_path_local": ["img_slides_pub_20_5_2.jpg"],
+            "imgs_path_remote": [
+              "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_sliders_pub_20_templatev5.jpg"
+            ],
+            "title": "first publication",
+            "sub_title": "first sub title of publication",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+            "link_voir_plus": "link vers la pulicitie ou le site web de l'entreprise s'il exist bien sur",
+            "note": "Life is a journey of moments, some filled with joy, others with challenges. Embrace them all, for they shape the beautiful mosaic of your existence.",
+            "badge": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+            "button_text": "",
+            "background_img_remote": "",
+            "background_img_local": ""
+          },
+          "entreprise_info": {
+            "entp_title": "tirassam",
+            "entp_sub_title": "sous_tirassam",
+            "entp_description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the   standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+            "entp_image_remote": [""],
+            "entp_image_local": [""],
+
+            "entp_reseaux_sociaux": {
+              "facebook": "facebook.com",
+              "website": "website.com",
+              "instegram": "instegram.com"
+            },
+            "entp_phone_number": {
+              "fix": "044998844",
+              "fax": "044998844",
+              "num_1": "0766554455",
+              "num_2": "0543672218"
+            },
+            "entp_maps": {
+              "entp_lng": "2.887444",
+              "entp_lat": "8.999212"
+            },
+            "entp_address": "Lotissement les Castors, 16005 Bir Mourad Rais",
+            "entp_logo_remote": "https://imgs.search.brave.com/arVr0UkKZ-lrulGOXt63NSw8fjhuIHTSF-YxKBSbeWY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDc3NzEx/OTMuanBn",
+            "entp_logo_local": "img_slides_pub_20_entp_5"
+          }
+        }
+      ]
+    },
+
+    {
+      "typeModel": "img_hr",
+      "emplacement": "anc_5",
+      "elementAnc": [
+        {
+          "annonce_info": {
+            "imgs_path_local": ["img_hr_pub_5_0.jpg"],
+            "imgs_path_remote": [
+              "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_hr_pub_5_template.jpg"
+            ],
+            "title": "first publication",
+            "sub_title": "first sub title of publication",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+            "link_voir_plus": "link vers la pulicitie ou le site web de l'entreprise s'il exist bien sur",
+            "button_text": "",
+            "note": "Life is a journey of moments, some filled with joy, others with challenges. Embrace them all, for they shape the beautiful mosaic of your existence.",
+            "badge": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+            "background_img_remote": "",
+            "background_img_local": ""
+          },
+          "entreprise_info": {
+            "entp_title": "tirassam",
+            "entp_sub_title": "sous_tirassam",
+            "entp_description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the   standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+            "entp_image_remote": [""],
+            "entp_image_local": [""],
+            "entp_reseaux_sociaux": {
+              "facebook": "facebook.com",
+              "website": "website.com",
+              "instegram": "instegram.com"
+            },
+            "entp_phone_number": {
+              "fix": "044998844",
+              "fax": "044998844",
+              "num_1": "0766554455",
+              "num_2": "0543672218"
+            },
+            "entp_maps": {
+              "entp_lng": "2.887444",
+              "entp_lat": "8.999212"
+            },
+            "entp_address": "Lotissement les Castors, 16005 Bir Mourad Rais",
+            "entp_logo_remote": "https://cdn.pixabay.com/photo/2016/06/13/09/57/meeting-1453895_1280.png",
+            "entp_logo_local": "img_hr_pub_5_entp_0.jpg"
+          }
+        }
+      ]
+    },
+
+    {
+      "typeModel": "img_basic",
+      "emplacement": "anc_7",
+      "elementAnc": [
+        {
+          "annonce_info": {
+            "imgs_path_local": ["img_basic_pub_7_0.jpg"],
+            "imgs_path_remote": [
+              "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_basic_pub_7_template.jpg"
+            ],
+            "title": "first publication",
+            "sub_title": "first sub title of publication",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+            "link_voir_plus": "link vers la pulicitie ou le site web de l'entreprise s'il exist bien sur",
+            "note": "Life is a journey of moments, some filled with joy, others with challenges. Embrace them all, for they shape the beautiful mosaic of your existence.",
+            "badge": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+            "button_text": "",
+            "background_img_remote": "",
+            "background_img_local": ""
+          },
+          "entreprise_info": {
+            "entp_title": "tirassam",
+            "entp_sub_title": "sous_tirassam",
+            "entp_description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the   standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+            "entp_image_remote": [""],
+            "entp_image_local": [""],
+            "entp_reseaux_sociaux": {
+              "facebook": "facebook.com",
+              "website": "website.com",
+              "instegram": "instegram.com"
+            },
+            "entp_phone_number": {
+              "fix": "044998844",
+              "fax": "044998844",
+              "num_1": "0766554455",
+              "num_2": "0543672218"
+            },
+            "entp_maps": {
+              "entp_lng": "2.887444",
+              "entp_lat": "8.999212"
+            },
+            "entp_address": "Lotissement les Castors, 16005 Bir Mourad Rais",
+            "entp_logo_remote": "https://cdn.pixabay.com/photo/2016/06/13/09/57/meeting-1453895_1280.png",
+            "entp_logo_local": "img_basic_pub_7_entp_0.jpg"
+          }
+        }
+      ]
+    },
+
+    {
+      "typeModel": "img_basic",
+      "emplacement": "anc_9",
+      "elementAnc": [
+        {
+          "annonce_info": {
+            "imgs_path_local": ["img_basic_pub_9_0.jpg"],
+            "imgs_path_remote": [
+              "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_basic_pub_9_template.jpg"
+            ],
+            "title": "first publication",
+            "sub_title": "first sub title of publication",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+            "link_voir_plus": "link vers la pulicitie ou le site web de l'entreprise s'il exist bien sur",
+            "note": "Life is a journey of moments, some filled with joy, others with challenges. Embrace them all, for they shape the beautiful mosaic of your existence.",
+            "badge": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+            "button_text": "",
+            "background_img_remote": "",
+            "background_img_local": ""
+          },
+          "entreprise_info": {
+            "entp_title": "tirassam",
+            "entp_sub_title": "sous_tirassam",
+            "entp_description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the   standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+            "entp_image_remote": [""],
+            "entp_image_local": [""],
+            "entp_reseaux_sociaux": {
+              "facebook": "facebook.com",
+              "website": "website.com",
+              "instegram": "instegram.com"
+            },
+            "entp_phone_number": {
+              "fix": "044998844",
+              "fax": "044998844",
+              "num_1": "0766554455",
+              "num_2": "0543672218"
+            },
+            "entp_maps": {
+              "entp_lng": "2.887444",
+              "entp_lat": "8.999212"
+            },
+            "entp_address": "Lotissement les Castors, 16005 Bir Mourad Rais",
+            "entp_logo_remote": "https://imgs.search.brave.com/arVr0UkKZ-lrulGOXt63NSw8fjhuIHTSF-YxKBSbeWY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDc3NzEx/OTMuanBn",
+            "entp_logo_local": "img_basic_pub_9_entp_0.jpg"
+          }
+        }
+      ]
+    },
+
+    {
+      "typeModel": "img_basic",
+      "emplacement": "anc_10",
+      "elementAnc": [
+        {
+          "annonce_info": {
+            "imgs_path_local": ["img_basic_pub_10_0.jpg"],
+            "imgs_path_remote": [
+              "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_basic_pub_10_template.jpg"
+            ],
+            "title": "first publication",
+            "sub_title": "first sub title of publication",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+            "link_voir_plus": "link vers la pulicitie ou le site web de l'entreprise s'il exist bien sur",
+            "note": "Life is a journey of moments, some filled with joy, others with challenges. Embrace them all, for they shape the beautiful mosaic of your existence.",
+            "badge": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+            "button_text": "",
+            "background_img_remote": "",
+            "background_img_local": ""
+          },
+          "entreprise_info": {
+            "entp_title": "tirassam",
+            "entp_sub_title": "sous_tirassam",
+            "entp_description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the   standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+            "entp_image_remote": [""],
+            "entp_image_local": [""],
+            "entp_reseaux_sociaux": {
+              "facebook": "facebook.com",
+              "website": "website.com",
+              "instegram": "instegram.com"
+            },
+            "entp_phone_number": {
+              "fix": "044998844",
+              "fax": "044998844",
+              "num_1": "0766554455",
+              "num_2": "0543672218"
+            },
+            "entp_maps": {
+              "entp_lng": "2.887444",
+              "entp_lat": "8.999212"
+            },
+            "entp_address": "Lotissement les Castors, 16005 Bir Mourad Rais",
+            "entp_logo_remote": "https://cdn.pixabay.com/photo/2016/06/13/09/57/meeting-1453895_1280.png",
+            "entp_logo_local": "img_basic_pub_10_entp_0.jpg"
+          }
+        }
+      ]
+    },
+
+    {
+      "typeModel": "img_basic",
+      "emplacement": "anc_11",
+      "elementAnc": [
+        {
+          "annonce_info": {
+            "imgs_path_local": ["img_basic_pub_11_0.jpg"],
+            "imgs_path_remote": [
+              "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_basic_pub_11_template.jpg"
+            ],
+            "title": "first publication",
+            "sub_title": "first sub title of publication",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+            "link_voir_plus": "link vers la pulicitie ou le site web de l'entreprise s'il exist bien sur",
+            "note": "Life is a journey of moments, some filled with joy, others with challenges. Embrace them all, for they shape the beautiful mosaic of your existence.",
+            "badge": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+            "button_text": "",
+            "background_img_remote": "",
+            "background_img_local": ""
+          },
+          "entreprise_info": {
+            "entp_title": "tirassam",
+            "entp_sub_title": "sous_tirassam",
+            "entp_description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the   standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+            "entp_image_remote": [""],
+            "entp_image_local": [""],
+            "entp_reseaux_sociaux": {
+              "facebook": "facebook.com",
+              "website": "website.com",
+              "instegram": "instegram.com"
+            },
+            "entp_phone_number": {
+              "fix": "044998844",
+              "fax": "044998844",
+              "num_1": "0766554455",
+              "num_2": "0543672218"
+            },
+            "entp_maps": {
+              "entp_lng": "2.887444",
+              "entp_lat": "8.999212"
+            },
+            "entp_address": "Lotissement les Castors, 16005 Bir Mourad Rais",
+            "entp_logo_remote": "https://imgs.search.brave.com/arVr0UkKZ-lrulGOXt63NSw8fjhuIHTSF-YxKBSbeWY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDc3NzEx/OTMuanBn",
+            "entp_logo_local": "img_basic_pub_11_entp_0.jpg"
+          }
+        }
+      ]
+    },
+
+    {
+      "typeModel": "img_basic",
+      "emplacement": "anc_13",
+      "elementAnc": [
+        {
+          "annonce_info": {
+            "imgs_path_local": ["img_basic_pub_13_0.jpg"],
+            "imgs_path_remote": [
+              "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_basic_pub_13_template.jpg"
+            ],
+            "title": "first publication",
+            "sub_title": "first sub title of publication",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+            "link_voir_plus": "link vers la pulicitie ou le site web de l'entreprise s'il exist bien sur",
+            "note": "Life is a journey of moments, some filled with joy, others with challenges. Embrace them all, for they shape the beautiful mosaic of your existence.",
+            "badge": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+            "button_text": "",
+            "background_img_remote": "",
+            "background_img_local": ""
+          },
+          "entreprise_info": {
+            "entp_title": "tirassam",
+            "entp_sub_title": "sous_tirassam",
+            "entp_description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the   standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+            "entp_image_remote": [""],
+            "entp_image_local": [""],
+            "entp_reseaux_sociaux": {
+              "facebook": "facebook.com",
+              "website": "website.com",
+              "instegram": "instegram.com"
+            },
+            "entp_phone_number": {
+              "fix": "044998844",
+              "fax": "044998844",
+              "num_1": "0766554455",
+              "num_2": "0543672218"
+            },
+            "entp_maps": {
+              "entp_lng": "2.887444",
+              "entp_lat": "8.999212"
+            },
+            "entp_address": "Lotissement les Castors, 16005 Bir Mourad Rais",
+            "entp_logo_remote": "https://cdn.pixabay.com/photo/2016/06/13/09/57/meeting-1453895_1280.png",
+            "entp_logo_local": "img_basic_pub_13_entp_0.jpg"
+          }
+        }
+      ]
+    },
+
+    {
+      "typeModel": "img_basic",
+      "emplacement": "anc_15",
+      "elementAnc": [
+        {
+          "annonce_info": {
+            "imgs_path_local": ["img_basic_pub_15_0.jpg"],
+            "imgs_path_remote": [
+              "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_basic_pub_15_template.jpg"
+            ],
+            "title": "first publication",
+            "sub_title": "first sub title of publication",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+            "link_voir_plus": "link vers la pulicitie ou le site web de l'entreprise s'il exist bien sur",
+            "note": "Life is a journey of moments, some filled with joy, others with challenges. Embrace them all, for they shape the beautiful mosaic of your existence.",
+            "badge": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+            "button_text": "",
+            "background_img_remote": "",
+            "background_img_local": ""
+          },
+          "entreprise_info": {
+            "entp_title": "tirassam",
+            "entp_sub_title": "sous_tirassam",
+            "entp_description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the   standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+            "entp_image_remote": [""],
+            "entp_image_local": [""],
+            "entp_reseaux_sociaux": {
+              "facebook": "facebook.com",
+              "website": "website.com",
+              "instegram": "instegram.com"
+            },
+            "entp_phone_number": {
+              "fix": "044998844",
+              "fax": "044998844",
+              "num_1": "0766554455",
+              "num_2": "0543672218"
+            },
+            "entp_maps": {
+              "entp_lng": "2.887444",
+              "entp_lat": "8.999212"
+            },
+            "entp_address": "Lotissement les Castors, 16005 Bir Mourad Rais",
+            "entp_logo_remote": "https://imgs.search.brave.com/arVr0UkKZ-lrulGOXt63NSw8fjhuIHTSF-YxKBSbeWY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDc3NzEx/OTMuanBn",
+            "entp_logo_local": "img_basic_pub_15_entp_0.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "typeModel": "img_basic",
+      "emplacement": "anc_16",
+      "elementAnc": [
+        {
+          "annonce_info": {
+            "imgs_path_local": ["img_basic_pub_16_0.jpg"],
+            "imgs_path_remote": [
+              "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_basic_pub_16_template.jpg"
+            ],
+            "title": "first publication",
+            "sub_title": "first sub title of publication",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+            "link_voir_plus": "link vers la pulicitie ou le site web de l'entreprise s'il exist bien sur",
+            "note": "Life is a journey of moments, some filled with joy, others with challenges. Embrace them all, for they shape the beautiful mosaic of your existence.",
+            "badge": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+            "button_text": "",
+            "background_img_remote": "",
+            "background_img_local": ""
+          },
+          "entreprise_info": {
+            "entp_title": "tirassam",
+            "entp_sub_title": "sous_tirassam",
+            "entp_description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the   standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+            "entp_image_remote": [""],
+            "entp_image_local": [""],
+            "entp_reseaux_sociaux": {
+              "facebook": "facebook.com",
+              "website": "website.com",
+              "instegram": "instegram.com"
+            },
+            "entp_phone_number": {
+              "fix": "044998844",
+              "fax": "044998844",
+              "num_1": "0766554455",
+              "num_2": "0543672218"
+            },
+            "entp_maps": {
+              "entp_lng": "2.887444",
+              "entp_lat": "8.999212"
+            },
+            "entp_address": "Lotissement les Castors, 16005 Bir Mourad Rais",
+            "entp_logo_remote": "https://imgs.search.brave.com/arVr0UkKZ-lrulGOXt63NSw8fjhuIHTSF-YxKBSbeWY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDc3NzEx/OTMuanBn",
+            "entp_logo_local": "img_basic_pub_16_entp_0.jpg"
+          }
+        }
+      ]
+    },
+
+    {
+      "typeModel": "img_basic",
+      "emplacement": "anc_17",
+      "elementAnc": [
+        {
+          "annonce_info": {
+            "imgs_path_local": ["img_basic_pub_17_0.jpg"],
+            "imgs_path_remote": [
+              "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_basic_pub_17_template.jpg"
+            ],
+            "title": "first publication",
+            "sub_title": "first sub title of publication",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+            "link_voir_plus": "link vers la pulicitie ou le site web de l'entreprise s'il exist bien sur",
+            "note": "Life is a journey of moments, some filled with joy, others with challenges. Embrace them all, for they shape the beautiful mosaic of your existence.",
+            "badge": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+            "button_text": "",
+            "background_img_remote": "",
+            "background_img_local": ""
+          },
+          "entreprise_info": {
+            "entp_title": "tirassam",
+            "entp_sub_title": "sous_tirassam",
+            "entp_description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the   standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+            "entp_image_remote": [""],
+            "entp_image_local": [""],
+            "entp_reseaux_sociaux": {
+              "facebook": "facebook.com",
+              "website": "website.com",
+              "instegram": "instegram.com"
+            },
+            "entp_phone_number": {
+              "fix": "044998844",
+              "fax": "044998844",
+              "num_1": "0766554455",
+              "num_2": "0543672218"
+            },
+            "entp_maps": {
+              "entp_lng": "2.887444",
+              "entp_lat": "8.999212"
+            },
+            "entp_address": "Lotissement les Castors, 16005 Bir Mourad Rais",
+            "entp_logo_remote": "https://cdn.pixabay.com/photo/2016/06/13/09/57/meeting-1453895_1280.png",
+            "entp_logo_local": "img_basic_pub_17_entp_0.jpg"
+          }
+        }
+      ]
+    },
+
+    {
+      "typeModel": "img_basic",
+      "emplacement": "anc_18",
+      "elementAnc": [
+        {
+          "annonce_info": {
+            "imgs_path_local": ["img_basic_pub_18_0.jpg"],
+            "imgs_path_remote": [
+              "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_basic_pub_18_template.jpg"
+            ],
+            "title": "first publication",
+            "sub_title": "first sub title of publication",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+            "link_voir_plus": "link vers la pulicitie ou le site web de l'entreprise s'il exist bien sur",
+            "note": "Life is a journey of moments, some filled with joy, others with challenges. Embrace them all, for they shape the beautiful mosaic of your existence.",
+            "badge": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+            "button_text": "",
+            "background_img_remote": "",
+            "background_img_local": ""
+          },
+          "entreprise_info": {
+            "entp_title": "tirassam",
+            "entp_sub_title": "sous_tirassam",
+            "entp_description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the   standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+            "entp_image_remote": [""],
+            "entp_image_local": [""],
+            "entp_reseaux_sociaux": {
+              "facebook": "facebook.com",
+              "website": "website.com",
+              "instegram": "instegram.com"
+            },
+            "entp_phone_number": {
+              "fix": "044998844",
+              "fax": "044998844",
+              "num_1": "0766554455",
+              "num_2": "0543672218"
+            },
+            "entp_maps": {
+              "entp_lng": "2.887444",
+              "entp_lat": "8.999212"
+            },
+            "entp_address": "Lotissement les Castors, 16005 Bir Mourad Rais",
+            "entp_logo_remote": "https://cdn.pixabay.com/photo/2016/06/13/09/57/meeting-1453895_1280.png",
+            "entp_logo_local": "img_basic_pub_18_entp_0.jpg"
+          }
+        }
+      ]
+    },
+
+    {
+      "typeModel": "img_basic",
+      "emplacement": "anc_19",
+      "elementAnc": [
+        {
+          "annonce_info": {
+            "imgs_path_local": ["img_basic_pub_19_0.jpg"],
+            "imgs_path_remote": [
+              "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_basic_pub_19_template.jpg"
+            ],
+            "title": "first publication",
+            "sub_title": "first sub title of publication",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+            "link_voir_plus": "link vers la pulicitie ou le site web de l'entreprise s'il exist bien sur",
+            "note": "Life is a journey of moments, some filled with joy, others with challenges. Embrace them all, for they shape the beautiful mosaic of your existence.",
+            "badge": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+            "button_text": "",
+            "background_img_remote": "",
+            "background_img_local": ""
+          },
+          "entreprise_info": {
+            "entp_title": "tirassam",
+            "entp_sub_title": "sous_tirassam",
+            "entp_description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the   standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+            "entp_image_remote": [""],
+            "entp_image_local": [""],
+            "entp_reseaux_sociaux": {
+              "facebook": "facebook.com",
+              "website": "website.com",
+              "instegram": "instegram.com"
+            },
+            "entp_phone_number": {
+              "fix": "044998844",
+              "fax": "044998844",
+              "num_1": "0766554455",
+              "num_2": "0543672218"
+            },
+            "entp_maps": {
+              "entp_lng": "2.887444",
+              "entp_lat": "8.999212"
+            },
+            "entp_address": "Lotissement les Castors, 16005 Bir Mourad Rais",
+            "entp_logo_remote": "https://cdn.pixabay.com/photo/2016/06/13/09/57/meeting-1453895_1280.png",
+            "entp_logo_local": "img_basic_pub_19_entp_0.jpg"
+          }
+        }
+      ]
+    },
+
+    {
+      "typeModel": "img_vr",
+      "emplacement": "anc_3",
+      "elementAnc": [
+        {
+          "annonce_info": {
+            "imgs_path_local": ["img_vr_pub_3_0.jpg"],
+            "imgs_path_remote": [
+              "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_vr_pub_3_template.png"
             ],
             "title": "first publication",
             "sub_title": "first sub title of publication",
             "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
             "link_voir_plus": "link vers la pulicitie ou le site web de l'entreprise s'il exist bien sur",
             "button_text": "command",
+            "note": "Life is a journey of moments, some filled with joy, others with challenges. Embrace them all, for they shape the beautiful mosaic of your existence.",
+            "badge": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+
+            "background_img_remote": "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_vr_pub_3_templatev2.jpg",
+            "background_img_local": "img_vr_pub_3_bg.jpg"
+          },
+          "entreprise_info": {
+            "entp_title": "tirassam",
+            "entp_sub_title": "sous_tirassam",
+            "entp_description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the   standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+            "entp_image_remote": [""],
+            "entp_image_local": [""],
+            "entp_reseaux_sociaux": {
+              "facebook": "facebook.com",
+              "website": "website.com",
+              "instegram": "instegram.com"
+            },
+            "entp_phone_number": {
+              "fix": "044998844",
+              "fax": "044998844",
+              "num_1": "0766554455",
+              "num_2": "0543672218"
+            },
+            "entp_maps": {
+              "entp_lng": "2.887444",
+              "entp_lat": "8.999212"
+            },
+            "entp_address": "Lotissement les Castors, 16005 Bir Mourad Rais",
+            "entp_logo_remote": "https://imgs.search.brave.com/arVr0UkKZ-lrulGOXt63NSw8fjhuIHTSF-YxKBSbeWY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDc3NzEx/OTMuanBn",
+            "entp_logo_local": "img_vr_pub_3_entp_0.jpg"
+          }
+        }
+      ]
+    },
+
+    {
+      "typeModel": "img_vr",
+      "emplacement": "anc_4",
+      "elementAnc": [
+        {
+          "annonce_info": {
+            "imgs_path_local": ["img_vr_pub_4_0.jpg"],
+            "imgs_path_remote": [
+              "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/1371703-cover.jpeg"
+            ],
+            "title": "first publication",
+            "sub_title": "first sub title of publication",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+            "link_voir_plus": "link vers la pulicitie ou le site web de l'entreprise s'il exist bien sur",
+            "button_text": "command",
+            "note": "Life is a journey of moments, some filled with joy, others with challenges. Embrace them all, for they shape the beautiful mosaic of your existence.",
+
+            "badge": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+
+            "background_img_remote": "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_vr_pub_4_template.jpg",
+            "background_img_local": "img_vr_pub_4_bg.jpg"
+          },
+          "entreprise_info": {
+            "entp_title": "tirassam",
+            "entp_sub_title": "sous_tirassam",
+            "entp_description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the   standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+            "entp_image_remote": [""],
+            "entp_image_local": [""],
+            "entp_reseaux_sociaux": {
+              "facebook": "facebook.com",
+              "website": "website.com",
+              "instegram": "instegram.com"
+            },
+            "entp_phone_number": {
+              "fix": "044998844",
+              "fax": "044998844",
+              "num_1": "0766554455",
+              "num_2": "0543672218"
+            },
+            "entp_maps": {
+              "entp_lng": "2.887444",
+              "entp_lat": "8.999212"
+            },
+            "entp_address": "Lotissement les Castors, 16005 Bir Mourad Rais",
+            "entp_logo_remote": "https://cdn.pixabay.com/photo/2016/06/13/09/57/meeting-1453895_1280.png",
+            "entp_logo_local": "img_vr_pub_4_entp_0.jpg"
+          }
+        }
+      ]
+    },
+
+    {
+      "typeModel": "img_basic",
+      "emplacement": "anc_2",
+      "elementAnc": [
+        {
+          "annonce_info": {
+            "imgs_path_local": ["img_basic_pub_2_0.jpg"],
+            "imgs_path_remote": [
+              "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_basic_pub_2_templatev2.jpg"
+            ],
+            "title": "first publication",
+            "sub_title": "first sub title of publication",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+            "link_voir_plus": "link vers la pulicitie ou le site web de l'entreprise s'il exist bien sur",
+            "button_text": "",
             "note": "Life is a journey of moments, some filled with joy, others with challenges. Embrace them all, for they shape the beautiful mosaic of your existence.",
             "badge": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
             "background_img_remote": "",
@@ -967,168 +1458,100 @@
             },
             "entp_address": "Lotissement les Castors, 16005 Bir Mourad Rais",
             "entp_logo_remote": "https://imgs.search.brave.com/arVr0UkKZ-lrulGOXt63NSw8fjhuIHTSF-YxKBSbeWY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDc3NzEx/OTMuanBn",
-            "entp_logo_local": "img_hr_pub_2_entp.jpg"
-          }
-        }
-      ]
-    },
-
-    {
-      "typeModel": "img_vr",
-      "emplacement": "anc_4",
-      "elementAnc": [
-        {
-          "annonce_info": {
-            "imgs_path_local": ["img_vr_pub_4_0_0.jpg"],
-            "imgs_path_remote": [
-              "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_vr_pub_4_template.jpg"
-            ],
-            "title": "first publication",
-            "sub_title": "first sub title of publication",
-            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
-            "link_voir_plus": "link vers la pulicitie ou le site web de l'entreprise s'il exist bien sur",
-            "button_text": "command",
-            "note": "Life is a journey of moments, some filled with joy, others with challenges. Embrace them all, for they shape the beautiful mosaic of your existence.",
-            "badge": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
-            "background_img_remote": "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_vr_pub_3_template.jpg",
-            "background_img_local": "img_vr_pub_4_bg.jpg"
-          },
-          "entreprise_info": {
-            "entp_title": "tirassam",
-            "entp_sub_title": "sous_tirassam",
-            "entp_description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the   standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
-            "entp_image_remote": [""],
-            "entp_image_local": [""],
-            "entp_reseaux_sociaux": {
-              "facebook": "facebook.com",
-              "website": "website.com",
-              "instegram": "instegram.com"
-            },
-            "entp_phone_number": {
-              "fix": "044998844",
-              "fax": "044998844",
-              "num_1": "0766554455",
-              "num_2": "0543672218"
-            },
-            "entp_maps": {
-              "entp_lng": "2.887444",
-              "entp_lat": "8.999212"
-            },
-            "entp_address": "Lotissement les Castors, 16005 Bir Mourad Rais",
-            "entp_logo_remote": "https://cdn.pixabay.com/photo/2016/06/13/09/57/meeting-1453895_1280.png",
-            "entp_logo_local": "img_vr_pub_4_entp.jpg"
+            "entp_logo_local": "img_basic_pub_2_entp.jpg"
           }
         }
       ]
     }
   ],
   "images_locales": [
-    "img_basic_pub_5_0_0.jpg",
-    "img_basic_pub_7_0_0.jpg",
-    "img_basic_pub_9_0_0.jpg",
-    "img_basic_pub_10_0_0.jpg",
-    "img_basic_pub_12_0_0.jpg",
-    "img_basic_pub_13_0_0.jpg",
-    "img_basic_pub_15_0_0.jpg",
-    "img_basic_pub_16_0_0.jpg",
-    "img_basic_pub_17_0_0.jpg",
-    "img_basic_pub_18_0_0.jpg",
-    "img_basic_pub_19_0_0.jpg",
-    "img_product_pub_3_0_0.jpg",
-    "img_product_pub_4_0_0.jpg",
     "img_slides_pub_1_0_0.jpg",
     "img_slides_pub_1_0_1.jpg",
-    "img_slides_pub_1_0_2.jpg",
-    "img_slides_pub_1_0_3.jpg",
-    "img_slides_pub_1_0_4.jpg",
     "img_slides_pub_6_1_0.jpg",
     "img_slides_pub_6_1_1.jpg",
     "img_slides_pub_6_1_2.jpg",
-    "img_slides_pub_6_1_3.jpg",
-    "img_slides_pub_6_1_4.jpg",
     "img_slides_pub_8_2_0.jpg",
     "img_slides_pub_8_2_1.jpg",
     "img_slides_pub_8_2_2.jpg",
-    "img_slides_pub_8_2_3.jpg",
-    "img_slides_pub_8_2_4.jpg",
-    "img_slides_pub_11_3_0.jpg",
-    "img_slides_pub_11_3_1.jpg",
-    "img_slides_pub_11_3_2.jpg",
-    "img_slides_pub_11_3_3.jpg",
-    "img_slides_pub_11_3_4.jpg",
+    "img_slides_pub_12_3_0.jpg",
+    "img_slides_pub_12_3_1.jpg",
+    "img_slides_pub_12_3_2.jpg",
     "img_slides_pub_14_4_0.jpg",
     "img_slides_pub_14_4_1.jpg",
     "img_slides_pub_14_4_2.jpg",
-    "img_slides_pub_14_4_3.jpg",
-    "img_slides_pub_14_4_4.jpg",
-    "img_hr_pub_2_0.jpg",
+    "img_slides_pub_20_5_0.jpg",
+    "img_slides_pub_20_5_1.jpg",
+    "img_slides_pub_20_5_2.jpg",
+    "img_hr_pub_5_0.jpg",
+    "img_basic_pub_7_0.jpg",
+    "img_basic_pub_9_0.jpg",
+    "img_basic_pub_10_0.jpg",
+    "img_basic_pub_11_0.jpg",
+    "img_basic_pub_13_0.jpg",
+    "img_basic_pub_15_0.jpg",
+    "img_basic_pub_16_0.jpg",
+    "img_basic_pub_17_0.jpg",
+    "img_basic_pub_18_0.jpg",
+    "img_basic_pub_19_0.jpg",
+    "img_basic_pub_2_0.jpg",
+    "img_vr_pub_3_0.jpg",
     "img_vr_pub_4_0.jpg",
-    "img_vr_pub_4_entp.jpg",
-    "img_hr_pub_2_entp.jpg",
-    "img_product_pub_4_entp_0.jpg",
-    "img_product_pub_3_entp_0.jpg",
-    "img_basic_pub_18_entp_0.jpg",
-    "img_basic_pub_17_entp_0.jpg",
-    "img_basic_pub_19_entp_0.jpg",
-    "img_basic_pub_16_entp_0.jpg",
-    "img_basic_pub_15_entp_0.jpg",
-    "img_basic_pub_13_entp_0.jpg",
-    "img_basic_pub_12_entp_0.jpg",
-    "img_basic_pub_10_entp.jpg",
-    "img_basic_pub_9_entp_0.jpg",
-    "img_basic_pub_7_entp_0.jpg",
-    "img_basic_pub_5_entp_0.jpg",
-    "img_basic_pub_10_entp_0.jpg",
-    "img_vr_pub_4_bg.jpg",
-    "img_slides_pub_14_entp_4",
-    "img_slides_pub_11_entp_3",
-    "img_slides_pub_8_entp_2",
+    "img_slides_pub_1_entp_0",
     "img_slides_pub_6_entp_1",
-    "img_slides_pub_1_entp_0"
+    "img_slides_pub_8_entp_2",
+    "img_slides_pub_12_entp_3",
+    "img_slides_pub_14_entp_4",
+    "img_slides_pub_20_entp_5",
+    "img_hr_pub_5_entp_0.jpg",
+    "img_basic_pub_7_entp_0.jpg",
+    "img_basic_pub_9_entp_0.jpg",
+    "img_basic_pub_10_entp_0.jpg",
+    "img_basic_pub_11_entp_0.jpg",
+    "img_basic_pub_13_entp_0.jpg",
+    "img_basic_pub_15_entp_0.jpg",
+    "img_basic_pub_16_entp_0.jpg",
+    "img_basic_pub_17_entp_0.jpg",
+    "img_basic_pub_18_entp_0.jpg",
+    "img_basic_pub_19_entp_0.jpg",
+    "img_vr_pub_3_entp_0.jpg",
+    "img_vr_pub_4_entp_0.jpg",
+    "img_basic_pub_2_entp.jpg",
+    "img_vr_pub_3_bg.jpg",
+    "img_vr_pub_4_bg.jpg"
   ],
   "images_remotes": [
-    "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_basic_pub_5_template.jpg",
+    "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_basic_pub_2_templatev2.jpg",
     "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_basic_pub_7_template.jpg",
     "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_basic_pub_9_template.jpg",
     "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_basic_pub_10_template.jpg",
-    "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_basic_pub_12_template.jpg",
     "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_basic_pub_13_template.jpg",
     "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_basic_pub_15_template.jpg",
     "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_basic_pub_16_template.jpg",
     "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_basic_pub_17_template.jpg",
     "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_basic_pub_18_template.jpg",
     "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_basic_pub_19_template.jpg",
-    "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_product_pub_3_template.png",
-    "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_product_pub_4_template.png",
     "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_sliders_pub_1_template.jpg",
     "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_sliders_pub_1_templatev2.jpg",
-    "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_sliders_pub_1_templatev3.jpg",
-    "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_sliders_pub_1_templatev4.jpg",
-    "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_sliders_pub_1_templatev5.jpg",
     "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_sliders_pub_6_template.jpg",
     "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_sliders_pub_6_templatev2.jpg",
     "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_sliders_pub_6_templatev3.jpg",
-    "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_sliders_pub_6_templatev4.jpg",
-    "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_sliders_pub_6_templatev5.jpg",
     "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_sliders_pub_8_template.jpg",
     "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_sliders_pub_8_templatev2.jpg",
     "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_sliders_pub_8_templatev3.jpg",
-    "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_sliders_pub_8_templatev4.jpg",
-    "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_sliders_pub_8_templatev5.jpg",
-    "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_sliders_pub_11_template.jpg",
-    "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_sliders_pub_11_templatev2.jpg",
-    "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_sliders_pub_11_templatev3.jpg",
-    "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_sliders_pub_11_templatev4.jpg",
-    "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_sliders_pub_11_templatev5.jpg",
-    "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_sliders_pub_14_template.jpg",
-    "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_sliders_pub_14_templatev2.jpg",
+    "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_sliders_pub_12_templatev3.jpg",
+    "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_sliders_pub_12_templatev4.jpg",
+    "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_sliders_pub_12_templatev5.jpg",
     "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_sliders_pub_14_templatev3.jpg",
     "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_sliders_pub_14_templatev4.jpg",
     "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_sliders_pub_14_templatev5.jpg",
-    "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_vr_pub_3_template.jpg",
-    "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_hr_pub_2_template.jpg",
+    "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_sliders_pub_20_template.jpg",
+    "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_sliders_pub_20_templatev4.jpg",
+    "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_sliders_pub_20_templatev5.jpg",
+    "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_hr_pub_5_template.jpg",
+    "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_vr_pub_3_templatev2.jpg",
     "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_vr_pub_4_template.jpg",
-    "https://cdn.pixabay.com/photo/2016/06/13/09/57/meeting-1453895_1280.png",
-    "https://imgs.search.brave.com/arVr0UkKZ-lrulGOXt63NSw8fjhuIHTSF-YxKBSbeWY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDc3NzEx/OTMuanBn"
+    "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_vr_pub_3_template.png",
+    "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/img_basic_pub_11_template.jpg",
+    "https://yarlrybrsqapllwioing.supabase.co/storage/v1/object/public/PROPERTY_IMAGES/1371703-cover.jpeg"
   ]
 }

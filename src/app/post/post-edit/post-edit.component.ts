@@ -24,24 +24,29 @@ export class PostEditComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
-    this.route.paramMap.subscribe((params) => {
-      const id = +params.get('id');
-      this.store.select(getPostById, { id }).subscribe((data) => {
-        this.post = data;
-        this.createFormPostUpdate();
-      });
+    this.createFormPostUpdate();
+    this.store.select(getPostById).subscribe((post) => {
+      console.log(post);
+
+      if (post) {
+        this.post = post;
+        this.postForm.patchValue({
+          title: post.title,
+          body: post.body,
+          description: post.description,
+          img: post.img,
+        });
+      }
     });
   }
 
   createFormPostUpdate() {
     this.postForm = new FormGroup({
-      userId: new FormControl(this.post.title, [Validators.required]),
-      title: new FormControl(this.post.title, [Validators.required]),
-      body: new FormControl(this.post.title, [Validators.required]),
-      description: new FormControl(this.post.description, [
-        Validators.required,
-      ]),
-      img: new FormControl(this.post.img, [Validators.required]),
+      userId: new FormControl(null, [Validators.required]),
+      title: new FormControl(null, [Validators.required]),
+      body: new FormControl(null, [Validators.required]),
+      description: new FormControl(null, [Validators.required]),
+      img: new FormControl(null, [Validators.required]),
     });
   }
 
