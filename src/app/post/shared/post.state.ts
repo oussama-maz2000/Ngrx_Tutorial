@@ -1,6 +1,4 @@
 import { Post } from 'src/app/model/classes/Post.model';
-import { PostState } from './post.model';
+import { PostState, postAdapter } from './post.model';
 
-export const postInitialState: PostState = {
-  posts: null,
-};
+export const postInitialState: PostState = postAdapter.getInitialState();

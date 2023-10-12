@@ -11,6 +11,7 @@
           <div class="d-flex justify-content-between">
             <i class="bi bi-arrow-clockwise" [routerLink]="['edit', i.id]"></i>
             <i class="bi bi-trash" (click)="onDeletePost(i.id)"></i>
+            <i class="bi bi-ticket-detailed" [routerLink]="['details',i.id]"></i>
           </div>
         </div>
       </div>
