@@ -8,7 +8,7 @@ import { RxjsComponent } from './RxJs/rxjs/rxjs.component';
 import { HTTP_INTERCEPTORS, HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { UserEditComponent } from './RxJs/user-edit/user-edit.component';
-
+import { ProductDataService } from './service/product.data.service';
 import { HomeComponent } from './counter/home/home.component';
 import { HeaderComponent } from './counter/shared/components/header/header.component';
 import { EffectsModule } from '@ngrx/effects';
@@ -18,7 +18,10 @@ import { AuthEffect } from './auth/state/auth.effects';
 import { AuthTokenInterceptor } from './service/authToken.service';
 import { StoreRouterConnectingModule } from '@ngrx/router-store';
 import { CustomSerializer } from './router/custom-serializer';
-
+import { ProductComponent } from './product/product.component';
+import { EntityDataModule, EntityDataService } from '@ngrx/data';
+import { entityConfiguration } from './app-entity-metadat';
+import { ProductResolver } from './service/product.resolver';
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,6 +31,7 @@ import { CustomSerializer } from './router/custom-serializer';
     HomeComponent,
     HeaderComponent,
     LoadingSpinnerComponent,
+    ProductComponent,
   ],
   imports: [
     BrowserModule,
@@ -41,10 +45,21 @@ import { CustomSerializer } from './router/custom-serializer';
     StoreRouterConnectingModule.forRoot({
       serializer: CustomSerializer,
     }),
+
+    EntityDataModule.forRoot(entityConfiguration),
   ],
   providers: [
     { provide: HTTP_INTERCEPTORS, useClass: AuthTokenInterceptor, multi: true },
+    ProductDataService,
+    ProductResolver,
   ],
   bootstrap: [AppComponent],
 })
-export class AppModule {}
+export class AppModule {
+  constructor(
+    entityDataService: EntityDataService,
+    ProductDataService: ProductDataService
+  ) {
+    entityDataService.registerService('Product', ProductDataService);
+  }
+}

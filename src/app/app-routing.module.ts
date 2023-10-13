@@ -10,6 +10,8 @@ import { PostAddComponent } from './post/post-add/post-add.component';
 import { PostEditComponent } from './post/post-edit/post-edit.component';
 import { AuthGuard } from './service/auth.guard';
 import { PostSingleComponent } from './post/post-single/post-single.component';
+import { ProductComponent } from './product/product.component';
+import { ProductResolver } from './service/product.resolver';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -35,6 +37,11 @@ const routes: Routes = [
     path: 'auth',
     loadChildren: () =>
       import('./auth/auth.module').then((module) => module.AuthModule),
+  },
+  {
+    path: 'product',
+    component: ProductComponent,
+    resolve: { products: ProductResolver },
   },
 ];
 
